@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap4",
+  "version": "0.0.1",
+  "description": "Assets for my Bootstrap 4: Essential Training Course",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/planetoftheweb/bootstrap4.git"
+  },
+  "author": "Ray Villalobos",
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-webserver": "^0.8.8"
+  }
+}
