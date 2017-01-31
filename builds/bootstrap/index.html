@@ -14,19 +14,25 @@
   <div class="row">
     <section class="col-12">
 
+<style>
+  .breadcrumb-item+.breadcrumb-item::before {
+    content: '>'
+  }
+</style>
+
 <h3>Exotic Pets</h3>
 
-<ol>
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Exotic Pets</a></li>
-  <li>Nutrition</li>
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="#">Home</a></li>
+  <li class="breadcrumb-item"><a href="#">Exotic Pets</a></li>
+  <li class="breadcrumb-item active">Nutrition</li>
 </ol>
 
 
-<nav>
-  <a href="#">Home</a>
-  <a href="#">Exotic Pets</a>
-  <span>Nutrition</span>
+<nav class="breadcrumb">
+  <a class="breadcrumb-item" href="#">Home</a>
+  <a class="breadcrumb-item" href="#">Exotic Pets</a>
+  <span class="breadcrumb-item active">Nutrition</span>
 </nav>
 
     </section>
