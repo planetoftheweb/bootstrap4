@@ -20,12 +20,12 @@
     <legend>Owner Info</legend>
 
     <div class="form-group">
-      <label for="ownername">Owner name</label>
+      <label class="form-control-label" for="ownername">Owner name</label>
       <input class="form-control" type="text" id="ownername" placeholder="Your Name">
     </div><!-- form-group -->
 
     <div class="form-group">
-      <label for="owneremail">Email address</label>
+      <label class="form-control-label" for="owneremail">Email address</label>
       <input class="form-control" type="email" id="owneremail" aria-describedby="emailHelp" placeholder="Enter email">
       <small class="form-text text-muted" id="emailHelp">We'll never share your email</small>
     </div><!-- form-group -->
@@ -36,12 +36,12 @@
     <legend>Pet Info</legend>
 
     <div class="form-group">
-      <label for="petname">Pet name</label>
+      <label class="form-control-label" for="petname">Pet name</label>
       <input class="form-control" type="text" id="petname" placeholder="Your Pet's name">
     </div><!-- form-group -->
 
     <div class="form-group">
-      <label for="pettype">Pet type</label>
+      <label class="form-control-label" for="pettype">Pet type</label>
       <select class="form-control" id="pettype">
         <option>Choose</option>
         <option value="cat">Dog</option>
@@ -51,46 +51,56 @@
     </div><!-- form-group -->
 
     <div class="form-group">
-      <label for="reasonforvisit">Reason for today's visit</label>
+      <label class="form-control-label" for="reasonforvisit">Reason for today's visit</label>
       <textarea class="form-control" id="reasonforvisit" rows="3"></textarea>
     </div><!-- form-group -->
+  </fieldset><!-- fieldset -->
+
+  <fieldset class="form-group">
+
+    <legend>Pet Medical Data</legend>
 
     <div class="form-group">
       <label>Has your pet been spayed or neutered?</label>
-      <div class="form-check">
-      <label class="form-check-label">
-        <input class="form-check-input" type="radio" name="spayneut" value="yes" checked> Yes
-      </label>
+
+      <div>
+        <label>
+          <input type="radio" name="spayneut" value="yes" checked> Yes
+        </label>
       </div><!-- form-check -->
 
-      <div class="form-check">
-      <label class="form-check-label">
-        <input class="form-check-input" type="radio" name="spayneut" value="no"> No
-      </label>
+      <div>
+        <label>
+          <input type="radio" name="spayneut" value="no"> No
+        </label>
       </div><!-- form-check -->
+
     </div><!-- form-group -->
 
     <div class="form-group">
-      <label class="d-block">Has the pet had any of the following in the past 30 days</label>
+      <label>Has the pet had any of the following in the past 30 days</label>
 
-      <div class="form-check form-check-inline">
-        <label class="form-check-label">
+      <div>
+        <label>
           <input type="checkbox"> Abdominal pain
         </label>
       </div><!-- form-check -->
-      <div class="form-check form-check-inline">
-        <label class="form-check-label">
+
+      <div>
+        <label>
           <input type="checkbox"> Lack of appetite
         </label>
       </div><!-- form-check -->
-      <div class="form-check form-check-inline">
-        <label class="form-check-label">
+
+      <div>
+        <label>
           <input type="checkbox"> Weakness
         </label>
       </div><!-- form-check -->
     </div><!-- form-group -->
 
-  </fieldset><!-- fieldset -->
+  </fieldset><!-- form-group -->
+
   <button class="btn btn-primary" type="submit">Submit</button>
 </form>
 
