@@ -16,48 +16,48 @@
 
 <form>
 
-  <fieldset>
+  <fieldset class="form-group">
     <legend>Owner Info</legend>
 
-    <div>
-      <label for="ownername">Owner name</label>
-      <input type="text" id="ownername" placeholder="Your Name">
-    </div>
+    <div class="form-group">
+      <label class="form-control-label" for="ownername">Owner name</label>
+      <input class="form-control" type="text" id="ownername" placeholder="Your Name">
+    </div><!-- form-group -->
 
-    <div>
-      <label for="owneremail">Email address</label>
-      <input type="email" id="owneremail" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp">We'll never share your email</small>
-    </div>
+    <div class="form-group">
+      <label class="form-control-label" for="owneremail">Email address</label>
+      <input class="form-control" type="email" id="owneremail" aria-describedby="emailHelp" placeholder="Enter email">
+      <small class="form-text text-muted" id="emailHelp">We'll never share your email</small>
+    </div><!-- form-group -->
 
-  </fieldset>
-  <fieldset>
+  </fieldset><!-- fieldset -->
+  <fieldset class="form-group">
 
     <legend>Pet Info</legend>
 
-    <div>
-      <label for="petname">Pet name</label>
-      <input type="text" id="petname" placeholder="Your Pet's name">
-    </div>
+    <div class="form-group">
+      <label class="form-control-label" for="petname">Pet name</label>
+      <input class="form-control" type="text" id="petname" placeholder="Your Pet's name">
+    </div><!-- form-group -->
 
-    <div>
-      <label for="pettype">Pet type</label>
-      <select id="pettype">
+    <div class="form-group">
+      <label class="form-control-label" for="pettype">Pet type</label>
+      <select class="form-control" id="pettype">
         <option>Choose</option>
         <option value="cat">Dog</option>
         <option value="cat">Cat</option>
         <option value="bird">Other</option>
       </select>
-    </div>
+    </div><!-- form-group -->
 
-    <div>
-      <label for="reasonforvisit">Reason for today's visit</label>
-      <textarea id="reasonforvisit" rows="3"></textarea>
-    </div>
+    <div class="form-group">
+      <label class="form-control-label" for="reasonforvisit">Reason for today's visit</label>
+      <textarea class="form-control" id="reasonforvisit" rows="3"></textarea>
+    </div><!-- form-group -->
 
 
-  </fieldset>
-  <button type="submit">Submit</button>
+  </fieldset><!-- fieldset -->
+  <button class="btn btn-primary" type="submit">Submit</button>
 </form>
 
 
