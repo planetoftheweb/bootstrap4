@@ -20,7 +20,15 @@
       <a class="nav-item nav-link" href="#">Staff</a>
       <a class="nav-item nav-link" href="#">Testimonials</a>
     </div><!-- navbar-nav -->
-
+    <form class="form-inline">
+      <div class="input-group">
+        <label class="form-control-label sr-only" for="search">Search</label>
+        <input type="text" id="search" class="form-control" placeholder="Search for...">
+        <span class="input-group-btn">
+          <button class="btn btn-info" type="button">Go</button>
+        </span>
+      </div>
+    </form>
   </div><!-- container -->
 </nav>
 
@@ -46,7 +54,13 @@
     <div class="form-group">
       <label class="form-control-label" for="donationamt">Donation Amount</label>
       <div class="input-group">
+        <span class="input-group-addon">
+          <label class="sr-only">Confirm Donation</label>
+          <input type="checkbox" checked aria-label="Checkbox for confirming donation">
+        </span>
+        <span class="input-group-addon">$</span>
         <input type="text" class="form-control" id="donationamt" placeholder="Amount">
+        <span class="input-group-addon">.00</span>
       </div><!-- input-group -->
     </div><!-- form-group -->
 
