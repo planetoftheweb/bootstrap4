@@ -25,15 +25,14 @@
       <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
       <li class="nav-item"><a class="nav-link" href="#staff">Staff</a></li>
       <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-    </div><!-- navbar-nav -->
-  </ul><!-- container -->
+    </ul><!-- navbar-nav -->
+  </div><!-- container -->
 </nav>
-
 
 <div class="container">
 
   <div class="content" id="mission">
-    <h2>Our Mission</h2>      
+    <h2>Our Mission</h2>
 
     <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
 
@@ -46,12 +45,12 @@
     <section>
       <h3>Exotic Pets</h3>
       <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
-    </section>        
+    </section>
 
     <section>
       <h3>Grooming</h3>
       <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
-    </section>        
+    </section>
 
     <section>
       <h3>General Health</h3>
@@ -61,17 +60,17 @@
     <section>
       <h3>Nutrition</h3>
       <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease prevention.</p>
-    </section>        
+    </section>
 
     <section>
       <h3>Pest Control</h3>
       <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.</p>
-    </section>        
+    </section>
 
     <section>
       <h3>Vaccinations</h3>
       <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the deadliest diseases in pets.</p>
-    </section>        
+    </section>
   </div>
 
   <div class="content" id="staff">
@@ -106,8 +105,8 @@
 
 </div><!-- content container -->
 
-<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-<script src="js/tether.min.js"></script>
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
 <script>
@@ -116,8 +115,8 @@ $(function() {
 
   //Use smooth scrolling when clicking on navigation
   $('.navbar-nav a').click(function() {
-    if (location.pathname.replace(/^\//,'') === 
-      this.pathname.replace(/^\//,'') && 
+    if (location.pathname.replace(/^\//,'') ===
+      this.pathname.replace(/^\//,'') &&
       location.hostname === this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
