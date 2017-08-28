@@ -1,34 +1,31 @@
-var gulp = require('gulp'),
-    webserver = require('gulp-webserver');
+const gulp = require('gulp'),
+  webserver = require('gulp-webserver'),
 
-var builds = 'builds/bootstrap';
-
-gulp.task('js', function() {
-  return gulp.src(builds + '/js/myscript.js')
-});
+  source = './',
+  dest = './';
 
 gulp.task('html', function() {
-  gulp.src(builds + '/**/*.html');
+  gulp.src(dest + '**/*.html');
 });
 
+// Regular CSS
 gulp.task('css', function() {
-    gulp.src(builds + '/css/*.css');
+  gulp.src(dest + '**/*.css');
 });
 
 gulp.task('watch', function() {
-    gulp.watch(builds + '/js/**/*', ['js']);
-    gulp.watch(builds + '/css/**/*.css', ['css']);
-    gulp.watch([builds + '/**/*.html'], ['html']);
+  gulp.watch(source + '**/*.js', ['js']);
+  gulp.watch(source + '**/*.css', ['css']); //CSS
+  gulp.watch(source + '**/*.html', ['html']);
 });
 
 gulp.task('webserver', function() {
-    gulp.src(builds + '/')
-        .pipe(webserver({
-            port: 3000,
-            livereload: true,
-            livereloadport: 8283,
-            open: true
-        }));
+  gulp.src(dest)
+    .pipe(webserver({
+      livereload: true,
+      port: 3333,
+      open: true
+    }));    
 });
 
-gulp.task('default', ['watch', 'html', 'js', 'css', 'webserver']);
+gulp.task('default', ['webserver','watch']);
