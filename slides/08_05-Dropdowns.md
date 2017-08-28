@@ -2,7 +2,7 @@
 # Bootstrap 4
 Dropdowns
 
->> Speaker Notes:
+> > Speaker Notes:
 Dropdowns are common design patterns and in Bootstrap you can create them easily for different components. There are lots of options so, let's take a look.
 
 ---
@@ -15,7 +15,7 @@ Dropdowns are common design patterns and in Bootstrap you can create them easily
 	<li class="fragment">links or buttons</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. You can use dropdowns in a bunch of components including navs, tabs and buttons. If you've been following along, you've already seen how to work them into navbars, which is actually also how you implement them in navs.
 2. You create dropdowns in two parts. You create a button to trigger the dropdown and then create the menu itself. They are tied under a dropdown container that toggles the dropdown menu.
 3. For the menu, you can use anchor tag links or buttons.
@@ -31,7 +31,7 @@ Dropdowns are common design patterns and in Bootstrap you can create them easily
 	<li class="fragment">`dropdown-item`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. The classes for a basic dropdown are the dropdown class on the container of both the trigger and the menu.
 2. The dropdown toggle class on the button that triggers the menu.
 3. Dropdown menu, which is the container for the menu.
@@ -47,7 +47,7 @@ Dropdowns are common design patterns and in Bootstrap you can create them easily
 	<li class="fragment">`disabled`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. Inside the dropdown, you can add a few elements including a header that's a title to a group of elements in the dropdown.
 2. The dropdown divider lets you create a horizontal line to divide groups of elements.
 3. Any menu element can also be tagged as disabled.
@@ -63,7 +63,7 @@ Dropdowns are common design patterns and in Bootstrap you can create them easily
 	<li class="fragment">`btn-group` `dropdown-toggle-split`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. There's a few options that control how things look and work. For example, you can control the size of the buttons just like you can with regular buttons.
 2. You can also cause the button to drop upwards instead of downwards witht he dropup class.
 3. If you want to align the menu to the right instead of to the left, you can add dropdown-menu-right.

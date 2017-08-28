@@ -2,7 +2,7 @@
 # Bootstrap 4
 Badges
 
->> Speaker Notes:
+> > Speaker Notes:
 One of the small new features in Bootstrap is the addition of a class for badges, I really like this new addition so, let's take a look.
 
 ---
@@ -26,7 +26,7 @@ One of the small new features in Bootstrap is the addition of a class for badges
 	</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. The main class is called badge, which is contextual in that it automatically resizes relative to it's container.
 2. There is an option to give the badges a more rounded edge with badge-pill
 3. Of course, you have the traditional color options available.

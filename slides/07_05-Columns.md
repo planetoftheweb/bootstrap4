@@ -2,7 +2,7 @@
 # Bootstrap 4
 Forms in Columns
 
->> Speaker Notes:
+> > Speaker Notes:
 Bootstrap helps you lay out forms using the column grid. There's a few classes you should know about, so let's take a look.
 ---
 <!-- .slide: data-state="hasicon" -->
@@ -15,7 +15,7 @@ Bootstrap helps you lay out forms using the column grid. There's a few classes y
 	<li class="fragment">`col-form-label`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. Just like with any other column system, you need to have a container class in order to make this work.
 2. You also need to use rows as well as columns together and you can make the layouts responsive. Pretty much anything you can do with columns you can do with forms, so make sure you check the videos on working with the grid systen,
 3. There is a class you can add to labels to make them work better with col-form-label

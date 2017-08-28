@@ -2,7 +2,7 @@
 # Bootstrap 4
 Tooltips
 
->> Speaker Notes:
+> > Speaker Notes:
 Tooltips are a great way to show additional information on links and buttons.
 
 ---
@@ -15,7 +15,7 @@ Tooltips are a great way to show additional information on links and buttons.
 	<li class="fragment">`title="text"`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. You should only use tooltips on HTML elements that are focusable like links and form controls because of problems with usability.
 2. Tooltips use an extra library called tether, which is a separate installation. You can read more about it on [this website](http://tether.io).
 3. In order to set these up, you simply add a data-toggle of tooltip to an element and then add a title attribute with some text in it.
@@ -46,7 +46,7 @@ $(function () {
 ```
 <!-- .element: data-trim="true" contenteditable="true" class="fragment" -->
 
->> Speaker Notes:
+> > Speaker Notes:
 1. Tooltips are configured in one of two ways, you can use javascript by using a configuration object, or use data attributes.
 2. They are not turned on by default so they have to be activated by using some javascript.
 3. The HTML that gets generated for each tooltip looks like this, just in case you want to style it yourself.
@@ -81,7 +81,7 @@ $(function () {
 	</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. There are a lot of options that you can pass through the data parameters or the configuration object. The three most common are the placement, which decides where the tooltip will appear.
 2. The trigger, which by default is over hover, but can be configured to some other methods.
 3. Finally, you can add some simple HTML into the title, but it has to be turned on.

@@ -2,7 +2,7 @@
 # Bootstrap 4
 Creating Navbars
 
->> Speaker Notes:
+> > Speaker Notes:
 The navbar component is related to the nav component, so if you're familiar with navs, then creating navbars will be simple. It's a completely redesigned component that is simpler to use and customize.
 
 ---
@@ -24,7 +24,7 @@ The navbar component is related to the nav component, so if you're familiar with
 </ul>
 
 
->> Notes:
+> > Notes:
 1. The navbar is the main component and it can have a number of other elements inside it.
 1. By default, navbars components will stack so we need to add a navbar-toggleable at a specific breakpoint to control when the navbars convert to rows.
 1. The simplest componet you can use is the navbar-nav, which is our list of links. Just like with navs, you can use the navbar classes with either ULs or with the NAV tag.
@@ -43,7 +43,7 @@ The navbar component is related to the nav component, so if you're familiar with
 </ul>
 
 
->> Notes:
+> > Notes:
 1. You can use bg-color classes to change the color of the background navigation just like with other components if you want to use one of Bootstrap's defaults...and you can easily customize your color by changing the background-color css property to whatever you want.
 2. To control the color of the text, you can use navbar-light if your background color is light
 3. Or you can use navbar-inverse if your background color is dark
@@ -64,7 +64,7 @@ The navbar component is related to the nav component, so if you're familiar with
 </ul>
 
 
->> Notes:
+> > Notes:
 1. Just like with navs, we have a few classes to control how links look. You need a navitem on the LI if your using lists or in the anchor tag if your using the NAV tag.
 1. You use a nav-link just like with navs to identify the link
 1. Just like with navs you have an active as well as a disabled option. Those are not going to look differently until you add navigation styles.

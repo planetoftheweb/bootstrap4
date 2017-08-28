@@ -2,7 +2,7 @@
 # Bootstrap 4
 Alerts
 
->> Speaker Notes:
+> > Speaker Notes:
 Alerts are messages with special contextual styles that are designed to display in great looking boxes. They are optionally dismissed and can have any sort of markup. Let's take a look.
 
 ---
@@ -25,7 +25,7 @@ Alerts are messages with special contextual styles that are designed to display 
 	</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. The basic class for creating alerts is of course called alert. It goes on a main container for the content.
 2. There's a few contextual color classes you can use.
 
@@ -38,7 +38,7 @@ Alerts are messages with special contextual styles that are designed to display 
 	<li class="fragment">`alert-link`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. A few classes are available for internal content like alert-heading, though you can fit just about any HTML content inside an alert. Just be aware that's it's really meant for simple content.
 1. There is a special class if you want to add links within the alerts as well.
 
@@ -58,7 +58,7 @@ Alerts are messages with special contextual styles that are designed to display 
 ```
 <!-- .element: data-trim="true" contenteditable="true" class="fragment" -->
 
->> Speaker Notes:
+> > Speaker Notes:
 1. If you want to, you can make the alert dismissible, so the user can get rid of the message. You simply add a few classes to the alert. The classes add some padding to the right of the alert to allow a close button to fit.
 2. You also need to add a close button to the alert. Here's what that code looks like.
 

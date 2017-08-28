@@ -1,19 +1,19 @@
 <!-- .slide: data-state="title" -->
 # Bootstrap 4
-Installation
+Basic Template
 
 > > Speaker Notes:
-This version of bootstrap has a lot of different installation options. Let's take a quick look at the different options available. As of this recording, I'm working with Alpha 6 which might be a bit different than what you're working with, but let's take a look.
+In order to get things going, let's talk about the minimum template required to work with Bootstrap.
 
 ---
 
-## Installation Options
+## Using Scrollspy
 
 <ul>
-	<li class="fragment">CSS and JS</li>
-	<li class="fragment">Source Files</li>
-	<li class="fragment">Bootstrap CDN</li>
-	<li class="fragment">Package Managers</li>
+	<li class="fragment">Download JS &amp; CSS</li>
+	<li class="fragment">Basic HTML document</li>
+	<li class="fragment">jQuery</li>
+	<li class="fragment">Tether</li>
 </ul>
 
 > > Speaker Notes:

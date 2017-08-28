@@ -2,7 +2,7 @@
 # Bootstrap 4
 Breadcrumbs
 
->> Speaker Notes:
+> > Speaker Notes:
 One of the more simpler components you can use are breadcrumbs. They're sometimes used to indicate where you are in the navigation structure of your site or for secondary navigation.
 
 ---
@@ -18,7 +18,7 @@ One of the more simpler components you can use are breadcrumbs. They're sometime
 	<li class="fragment">`li` `nav>a`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. Like with other components, you need a container class, which in this case is breadcrumbs.
 2. And each of the items within the breadcrumbs get a breadcrumb-item class.
 3. Typically, the item that is showing the active page in a breadcrumb gets a special class and is not clickable.

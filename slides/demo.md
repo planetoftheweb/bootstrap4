@@ -2,7 +2,7 @@
 #Bootstrap 4
 Essential Training
 
->> You can create author's notes.
+> > You can create author's notes.
 
 ---
 
@@ -16,7 +16,7 @@ Essential Training
 - Battle tested
 - Uses modern web technologies
 
->> 
+> > 
 # Note
 Anything after the note special characters won't appear on the slides, but will still be in the markdown file. That means you can write your speaking notes here.
 
@@ -28,7 +28,7 @@ Anything after the note special characters won't appear on the slides, but will 
   </video>
 
   
->> Note:
+> > Note:
 You could make this a background video using `<!-- .slide: data-background-video="http://planetoftheweb.com/i/video.mp4" -->`
 
 ---
@@ -61,7 +61,7 @@ And some text, small shadow...
 	<li>Avoid `margin-top`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. There is a special portion at the beginning of the bootstrap styles called reboot.css. It normalizes styles so that they look similar in different platforms for consistent display. Unlike other normalizing css templates, it's somewhat opinionated.
 
 2. Bootstrap uses Rems, a font measurement system that makes it easier to control both the size of fonts across the entire browser and within individual components. That's going to make it easier to 

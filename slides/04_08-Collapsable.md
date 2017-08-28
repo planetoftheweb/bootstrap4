@@ -2,7 +2,7 @@
 # Bootstrap 4
 Collapsable Content
 
->> Speaker Notes:
+> > Speaker Notes:
 Bootstrap has a couple of tags that lets you create collapsable content which is a common technique you can use to collapse a navbar into a hamburger menu. You'll need two pieces. First is the content that you want to collapse and then you need an element that will do the toggling.
   
 ---
@@ -16,7 +16,7 @@ Bootstrap has a couple of tags that lets you create collapsable content which is
 	<li class="fragment">`id`</li>
 </ul>
 
->> Notes:
+> > Notes:
 1. For the collapsable content, you're going to need two classes. First is the generic collapsable content. Remember that collapsable content is not something unique to menus, so you need this class.
 2. You also need the navbar-collapse class, which is specifically for navbar.
 3. You also need an ID on this collapsable content. That will tie it together with the element that will do the toggling. Let's see talk about that.
@@ -32,7 +32,7 @@ Bootstrap has a couple of tags that lets you create collapsable content which is
 	<li class="fragment">`navbar-toggler-icon`</li>
 </ul>
 
->> Notes:
+> > Notes:
 1. The toggler needs a number of classes and properties. The main class is navbar-toggler.
 2. You also need a data-toggler attribute and set it to the collapse element.
 3. What ties the toggler with the content you want to toggle is a data-target element, so the ID that you used for that content needs to be here.

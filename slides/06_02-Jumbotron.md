@@ -2,7 +2,7 @@
 # Bootstrap 4
 Jumbotron
 
->> Speaker Notes:
+> > Speaker Notes:
 The Jumbotron is a component for a higlighted section of content that is commonly at the top of many websites. It's really easy to do with Bootstrap
 
 ---
@@ -17,7 +17,7 @@ The Jumbotron is a component for a higlighted section of content that is commonl
 	<li class="fragment">Use styles as needed</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. To create a jumbotron you add a class to main container. It creates a light gray background with slight round edges. 
 2. If you add a jumbotron-fluid container, you get a slightly different version that takes up the entire space of the parent.
 3. You may have to add a container class if you want the content to obey the grid.

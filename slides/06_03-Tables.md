@@ -2,7 +2,7 @@
 # Bootstrap 4
 Tables
 
->> Speaker Notes:
+> > Speaker Notes:
 One of the best features in Bootstrap is the addition of tables.
 
 ---
@@ -18,7 +18,7 @@ One of the best features in Bootstrap is the addition of tables.
 	<li class="fragment">`table-striped`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. Tables look really great when you add the table class. Bootstrap adds some additional spacing and underlines.
 2. You can use the table-inverse style to create a table with a black background and white text.
 3. You can alternatively create a table head with a black background and white text.
@@ -37,7 +37,7 @@ One of the best features in Bootstrap is the addition of tables.
 	<li class="fragment">`table-responsive`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. You can add borders to the table using table-bordered.
 2. You can also create a style that changes the background to a slight gray background when the mouse is over it.
 3. If the content is too wide, then you can use table-responsive class which allows you to scroll horizontally if the content doesn't fit. This is actually new in this version of bootstrap. In the older version you had to wrap a container around the table, so this is definitely better.
@@ -71,7 +71,7 @@ One of the best features in Bootstrap is the addition of tables.
 	</li>	
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. You can use a number of other color classes for backgrounds, which you can do on rows or individual cells.
 2. There are some light classes for making the backgrounds different colors.
 3. If you want to, you can also use the traditional bg-color classes as well.

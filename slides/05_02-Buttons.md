@@ -2,7 +2,7 @@
 # Bootstrap 4
 Basic Buttons
 
->> Speaker Notes:
+> > Speaker Notes:
 There are a number of classes to help you create buttons, so let's take a look in this video.
 
 ---
@@ -22,7 +22,7 @@ There are a number of classes to help you create buttons, so let's take a look i
 	<li class="fragment">`<a>` `<button>` `<input>`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. The basic class for buttons is btn and it has a few options that you can work with.
 2. You can include an optional size using the btn-size class for optional small or large buttons. There used to be more, but they have been simplified into these two. You don't use a class for regular size buttons and then use an sm class for a small button and lg class for larger buttons.
 3. You can use the button classes on anchor tags, button or input fields and they will look exactly the same.
@@ -57,7 +57,7 @@ There are a number of classes to help you create buttons, so let's take a look i
 	</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. There's a few options for colors or contextual classes that will yield certain colors. If you're coming from the old version of bootstrap, you'll notice an extra secondary option as well as a link style that will make a button look like a regular link, but retain button functionality.
 2. There is also an option for outline buttons which mimic most of the regular color classes.
 
@@ -73,7 +73,7 @@ There are a number of classes to help you create buttons, so let's take a look i
 	<li class="fragment">`disabled`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. There are some additional options to make a button take up the full width of it's container, which is common when working on mobile devices.
 2. There is an active class makes the button look like it's active
 3. And of course the disabled class displays as disabled and prevents you from clicking the button through styles.

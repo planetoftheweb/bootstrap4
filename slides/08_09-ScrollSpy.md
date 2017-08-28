@@ -2,7 +2,7 @@
 # Bootstrap 4
 Scrollspy
 
->> Speaker Notes:
+> > Speaker Notes:
 Scrollspy allows you to keep track of the scroll of the page and modifies classes according to the position of the page.
 ---
 
@@ -16,7 +16,7 @@ Scrollspy allows you to keep track of the scroll of the page and modifies classe
 	<li class="fragment">`data-offset`</li>
 </ul>
 
->> Speaker Notes:
+> > Speaker Notes:
 1. To do this, you need to make sure you add a data-spy scroll attribute on the container of the element you want to track scrolling in.
 1. That element also needs to have a position of relative.
 1. You also need to target the nav element you want bootstrap to update with data-target= and then the ID
