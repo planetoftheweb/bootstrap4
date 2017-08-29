@@ -20,13 +20,9 @@ The stylesheet that comes with Bootstrap overrides default browser behavior. Bes
 
 > > Speaker Notes:
 1. There is a special portion at the beginning of the bootstrap styles called reboot.css. It normalizes styles so that they look similar in different devices and browsers. Unlike most other normalizing css templates, it's a bit opinionated.
-
 2. For example, Bootstrap uses Rems, a font measurement system that makes it easier to control both the size of fonts across the entire browser and within individual components. That's going to make it easier to manage your layouts.
-
 3. In CSS, vertical margins can collapse and that makes it confusing to calculate the proper spacing in between different elements. To avoid this, bootstrap adds margin only at the bottom of elements.
-
 4. Bootstrap content uses the inherit css parameter whenever possible. This is important when you write your own css in addition to the bootstrap css because you won't have to work as hard to override styles.
-
 
 ---
 
@@ -40,15 +36,13 @@ The stylesheet that comes with Bootstrap overrides default browser behavior. Bes
 	<li class="fragment">Special styles</li>
 </ul>
 
->>
-1. Another default that is set in bootstrap is that box-sizing, which makes it easier to calculate the width of elements is by default turned to 
+> > Author Notes
 
+1. Another default that is set in bootstrap is that box-sizing, which makes it easier to calculate the width of elements is by default turned to
 2. Bootstrap uses Native Font Stacks. That means that the default font in bootstrap isn't set to Helvetica, but it tries to use whatever the current platform defines as the default sans-serif font. For example, on current macs, that would be San Francisco. That yields a smaller css file and again, makes things look great on different devices.
-
 3. Bootstrap has elements that match headlines, style lead paragraphs and take care of common page patterns. This gives you a great looking stylesheet to begin your own designs.
 
-## Demo
-
+# Demo
 Let's take a look at a document that uses bootstrap with some basic HTML code. First, you'll notice that Bootstrap uses sans-serif fonts, which is definitely different than the serif defaults in your browser and it also redefines styles for things like `emphasis` and `strong` as well as other HTML content.
 
 - Headings
@@ -63,7 +57,7 @@ Let's take a look at a document that uses bootstrap with some basic HTML code. F
 <p class="h6">h6. Bootstrap heading</p>
 ```
 
-There are also four diplay styles for more dramatic typography that look great.
+There are also four display styles for more dramatic typography that look great.
 
 ```
 <h1 class="display-1">Display 1</h1>
