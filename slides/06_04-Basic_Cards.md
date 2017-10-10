@@ -25,16 +25,19 @@ Cards are a new design pattern in Bootstrap 4 that help you layout content into 
 ## <i class="fa fa-list-alt"></i> Card Styling
 
 <ul>
-	<li class="fragment"><p contenteditable>`card-COLOR`</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;">
-			<code style="background:#0275d8; color:white;">primary</code>
-			<code style="background:#5cb85c; color:white;">success</code>
-			<code style="background:#5bc0de; color:white;">info</code><br>
-			<code style="background:#f0ad4e; color:white;">warning</code>
-			<code style="background:#D9534E; color:white;">danger</code>
+	<li class="fragment"><p contenteditable>Use `card-COLOR` on `row` / `td`</p>
+		<small style="line-height: 120%; vertical-align: text-bottom;">
+			<code style="background:rgba(0,0,0,.075); color:#555;">active</code>
+			<code style="background:#b8daff; color:#555;">primary</code>
+			<code style="background:#dddfe2; color:#555;">secondary</code>
+			<code style="background:#c3e6cb; color:#555;">success</code><br>
+			<code style="background:#f5c6cb; color:#555;">danger</code>
+			<code style="background:#ffeeba; color:#555;">warning</code>
+			<code style="background:#bee5eb; color:#555;">info</code>
+			<code style="background:#fdfdfe; color:#555;">light</code>
+			<code style="background:#c6c8ca; color:#555;">dark</code>
 		</small>
-	</li>
-	<li class="fragment">`card-inverse`</li>
+	</li>	<li class="fragment">`card-inverse`</li>
 </ul>
 
 > > Speaker Notes:

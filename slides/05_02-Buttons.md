@@ -36,23 +36,27 @@ There are a number of classes to help you create buttons, so let's take a look i
 <ul>
 	<li><p contenteditable>`btn-COLOR`</p>
 		<small style="line-height: 220%; vertical-align: text-bottom;">
-			<code style="background:#0275d8; color:white;">primary</code>
-			<code style="background:#FFF; border: 1px solid #ccc; color:292b2c;">secondary</code>
-			<code style="background:#5cb85c; color:white;">success</code>
-			<code style="background:#5bc0de; color:white;">info</code><br>
-			<code style="background:#f0ad4e; color:white;">warning</code>
-			<code style="background:#D9534E; color:white;">danger</code>
+			<code style="background:#007bff; color:white;">primary</code>
+      <code style="background:#868e96; color:white;">secondary</code>
+      <code style="background:#28a745; color:white;">success</code>
+      <code style="background:#dc3545; color:white;">danger</code><br>
+			<code style="background:#ffc107; color:white;">warning</code>
+      <code style="background:#17a2b8; color:white;">info</code>
+      <code style="background:#f8f9fa; color:black;">light</code>
+      <code style="background:#343a40; color:white;">dark</code>
 			<code style="background:none;"><a href="#" style="color: #0275d8; text-decoration: underline">link</a></code>
 		</small>
 	</li>
 	<li class="fragment"><p contenteditable>`btn-outline-COLOR`</p>
 		<small style="line-height: 220%; vertical-align: text-bottom;">
-			<code style="background:#FFF; border: 1px solid #ccc; color:#0275d8;">primary</code>
-			<code style="background:#FFF; border: 1px solid #ccc; color:#292b2c;">secondary</code>
-			<code style="background:#FFF; border: 1px solid #ccc; color:#5cb85c;">success</code><br>
-			<code style="background:#FFF; border: 1px solid #ccc; color:#5bc0de;">info</code>
-			<code style="background:#FFF; border: 1px solid #ccc; color:#f0ad4e;">warning</code>
-			<code style="background:#FFF; border: 1px solid #ccc; color:#D9534E;">danger</code>
+      <code style="background: transparent; border: 1px solid #007bff; color: #007bff;">primary</code>
+      <code style="background: transparent; border: 1px solid #868e96; color: #868e96;">secondary</code>
+      <code style="background: transparent; border: 1px solid #28a745; color: #28a745;">success</code>
+      <code style="background: transparent; border: 1px solid #dc3545; color: #dc3545;">danger</code><br>
+			<code style="background: transparent; border: 1px solid #ffc107; color: #ffc107;">warning</code>
+      <code style="background: transparent; border: 1px solid #17a2b8; color: #17a2b8;">info</code>
+      <code style="background: transparent; border: 1px solid #f8f9fa; color: #f8f9fa;">light</code>
+      <code style="background: transparent; border: 1px solid #343a40; color: #343a40;">dark</code>
 		</small>
 	</li>
 </ul>

@@ -12,7 +12,7 @@ There are other ways besides the grid to control how elements are positioned in 
 ## <i class="fa fa-th"></i> Position
 <ul>
 	<li class="fragment"><p contenteditable>Position classes</p>
-	<small style="line-height: 220%; vertical-align: text-bottom;">		<code style="background:#D95357; color:white;">fixed-top</code>
+	<small style="line-height: 120%; vertical-align: text-bottom;">		<code style="background:#D95357; color:white;">fixed-top</code>
 		<code style="background:#D95357; color:white;">fixed-bottom</code>
 		<code style="background:#D95357; color:white;">sticky-top</code>
 		</small>
@@ -31,17 +31,25 @@ Let's talk about the position property. If you are familiar with CSS, this one w
 ## <i class="fa fa-th"></i> Basic Display
 <ul>
 	<li class="fragment">Mimics CSS</li>
-	<li class="fragment"><p contenteditable>`d-TYPE`</p>
-	<small style="line-height: 220%; vertical-align: text-bottom;">		<b>ALN:</b>
-		<code style="background:#D95357; color:white;">block</code>
-		<code style="background:#D95357; color:white;">inline</code>
+	<li class="fragment"><p contenteditable>`d(-BP)-TYP`</p>
+	<small style="line-height: 120%; vertical-align: text-bottom;"><b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px
+<code style="background:#5cb85c; color:white;">md</code> >768px
+<code style="background:#5cb85c; color:white;">lg</code> >992px
+<code style="background:#5cb85c; color:white;">xl</code> >1200px
+<br><b>TYP:</b>
+    <code style="background:#D95357; color:white;">none</code>
+    <code style="background:#D95357; color:white;">inline</code>
 		<code style="background:#D95357; color:white;">inline-block</code>
-		<code style="background:#D95357; color:white;">flex (options)</code>
+    <code style="background:#D95357; color:white;">block</code><br>
+    <code style="background:#D95357; color:white;">table</code>
+    <code style="background:#D95357; color:white;">table-cell</code>
+    <code style="background:#D95357; color:white;">flex</code>
+    <code style="background:#D95357; color:white;">inline-flex</code>
 		</small>
 	</li>
 </ul>
 
-> > Notes: 
+> > Notes:
 1. The display properties mimic what is possible with CSS and opens up Bootstrap to flexbox classes that can help with layouts.
 2. To use a display class, you use the d- and then the type of display property you want to use. block, inline, inline-block or flex. Flex has a ton of options. We'll cover the basic container in this video and explore it further in the next.
 
@@ -53,15 +61,15 @@ Let's talk about the position property. If you are familiar with CSS, this one w
 
 <ul>
 	<li class="fragment"><p contenteditable>`d(-BP)(-inline)-flex`</p>
-	<small style="line-height: 220%; vertical-align: text-bottom;">
-		<b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px 
-		<code style="background:#5cb85c; color:white;">md</code> >768px 
-		<code style="background:#5cb85c; color:white;">lg</code> >992px 
+	<small style="line-height: 120%; vertical-align: text-bottom;">
+		<b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px
+		<code style="background:#5cb85c; color:white;">md</code> >768px
+		<code style="background:#5cb85c; color:white;">lg</code> >992px
 		<code style="background:#5cb85c; color:white;">xl</code> >1200px
 		</small><br>
-		<small style="line-height: 220%; vertical-align: text-bottom;"> 
+		<small style="line-height: 120%; vertical-align: text-bottom;">
 	</small>
-	</li> 
+	</li>
 </ul>
 
 > > Note: By far, a flex display element has the most options. To use flex in your layouts, you'll need to use a flex container. A flex container has the following format.

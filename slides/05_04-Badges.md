@@ -16,12 +16,14 @@ One of the small new features in Bootstrap is the addition of a class for badges
 	<li class="fragment">`badge-pill`</li>
 	<li class="fragment"><p contenteditable>`badge-COLOR`</p>
 		<small style="line-height: 220%; vertical-align: text-bottom;">
-			<code style="background:#636c72; color:white;">default</code>
-			<code style="background:#0275d8; color:white;">primary</code>
-			<code style="background:#5cb85c; color:white;">success</code>
-			<code style="background:#5bc0de; color:white;">info</code><br>
-			<code style="background:#f0ad4e; color:white;">warning</code>
-			<code style="background:#D9534E; color:white;">danger</code>
+			<code style="background:#007bff; color:white;">primary</code>
+      <code style="background:#868e96; color:white;">secondary</code>
+      <code style="background:#28a745; color:white;">success</code>
+      <code style="background:#dc3545; color:white;">danger</code><br>
+			<code style="background:#ffc107; color:white;">warning</code>
+      <code style="background:#17a2b8; color:white;">info</code>
+      <code style="background:#f8f9fa; color:black;">light</code>
+      <code style="background:#343a40; color:white;">dark</code>
 		</small>
 	</li>
 </ul>

@@ -12,11 +12,11 @@ The navbar component is related to the nav component, so if you're familiar with
 ## <i class="fa fa-bars"></i> Navbar Classes
 <ul>
 	<li class="fragment">`navbar`</li>
-	<li class="fragment"><p contenteditable>`navbar-toggleable-BP`</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;">
-			<b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px 
-			<code style="background:#5cb85c; color:white;">md</code> >768px 
-			<code style="background:#5cb85c; color:white;">lg</code> >992px 
+	<li class="fragment"><p contenteditable>`navbar-expand(-BP)`</p>
+		<small style="line-height: 120%; vertical-align: text-bottom;">
+			<b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px
+			<code style="background:#5cb85c; color:white;">md</code> >768px
+			<code style="background:#5cb85c; color:white;">lg</code> >992px
 			<code style="background:#5cb85c; color:white;">xl</code> >1200px
 		</small><br>
 	</li>
@@ -26,8 +26,8 @@ The navbar component is related to the nav component, so if you're familiar with
 
 > > Notes:
 1. The navbar is the main component and it can have a number of other elements inside it.
-1. By default, navbars components will stack so we need to add a navbar-toggleable at a specific breakpoint to control when the navbars convert to rows.
-1. The simplest componet you can use is the navbar-nav, which is our list of links. Just like with navs, you can use the navbar classes with either ULs or with the NAV tag.
+1. By default, navbars components will stack so we need to add a navbar-expand with optional breakpoints to control when the navbar expands
+1. The simplest component you can use is the navbar-nav, which is our list of links. Just like with navs, you can use the navbar classes with either ULs or with the NAV tag.
 
 ---
 
@@ -35,11 +35,20 @@ The navbar component is related to the nav component, so if you're familiar with
 
 ## <i class="fa fa-bars"></i> Navbar Colors
 <ul>
-	<li><p contenteditable>`bg-COLOR` for backgrounds</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;"><code style="background:#0275d8; color:white;">primary</code> <code style="background:#5cb85c; color:white;">success</code> <code style="background:#5bc0de; color:white;">info</code> <code style="background:#f0ad4e; color:white;">warning</code><br> <code style="background:#D9534E; color:white;">danger</code> <code style="background:#292b2c; color:white;">inverse</code>  <code style="background:#f7f7f7; color:black;">faded</code></small>
-	</li>
+<li><p contenteditable>`bg-COLOR` for backgrounds</p>
+  <small style="line-height: 120%; vertical-align: text-bottom;">
+  <code style="background:#007bff; color:white;">primary</code>
+  <code style="background:#868e96; color:white;">secondary</code>
+  <code style="background:#28a745; color:white;">success</code>
+  <code style="background:#dc3545; color:white;">danger</code><br>
+  <code style="background:#ffc107; color:white;">warning</code>
+  <code style="background:#17a2b8; color:white;">info</code>
+  <code style="background:#f8f9fa; color:black;">light</code>
+  <code style="background:#343a40; color:white;">dark</code>
+  <code style="background:white; border: 1px solid gray; color:black;">white</code></small>
+</li>
 	<li class="fragment">`navbar-light`</li>
-	<li class="fragment">`navbar-inverse`</li>
+	<li class="fragment">`navbar-dark`</li>
 </ul>
 
 

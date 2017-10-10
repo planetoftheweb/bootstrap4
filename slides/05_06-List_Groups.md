@@ -32,10 +32,14 @@ List groups are a great way to style lists and other elements like buttons and l
 	<li class="fragment">`list-group-item-action` style</li>
 	<li class="fragment"><p contenteditable>Use `list-group-item-COLOR`</p>
 		<small style="line-height: 220%; vertical-align: text-bottom;">
-			<code style="background:#dff0d8; color:#3c763d;">success</code>
-			<code style="background:#d9edf7; color:#31708f;">info</code>
-			<code style="background:#fcf8e3; color:#8a6d3b;">warning</code>
-			<code style="background:#f2dede; color:#a94442;">danger</code>
+			<code style="background:#b8daff; color:#004085;">primary</code>
+			<code style="background:#dddfe2; color:#464a4e;">secondary</code>
+			<code style="background:#d9edf7; color:#155724;">success</code>
+			<code style="background:#fcf8e3; color:#721c24;">danger</code>
+			<code style="background:#f2dede; color:#856404;">warning</code>
+			<code style="background:#f2dede; color:#0c5460;">info</code>
+			<code style="background:#f2dede; color:#818182;">light</code>
+			<code style="background:#f2dede; color:#1b1e21;">dark</code>
 		</small>
 	</li>
 </ul>

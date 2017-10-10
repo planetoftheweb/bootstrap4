@@ -14,17 +14,24 @@ Bootstrap has a number of colors that you can access through contextual color na
 
 <ul>
 	<li class="fragment"><p contenteditable>`text-COLOR` for text</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;"><code style="color:#0275d8">primary</code> <code style="color:#5cb85c">success</code> <code style="color:#5bc0de">info</code> <code style="color:#f0ad4e">warning</code><br> <code style="color:#D9534E">danger</code> <code style="color:#FFFFFF">white</code></small>
+		<small style="line-height: 120%; vertical-align: text-bottom;">
+    <code style="color:#0275d8">primary</code>
+    <code style="color:#868e96">secondary</code>
+    <code style="color:#5cb85c">success</code>
+    <code style="color:#D9534E">danger</code><br>
+    <code style="color:#f0ad4e">warning</code>
+    <code style="color:#5bc0de">info</code>
+    <code style="color:#f8f9fa; background-color:gray;">light</code>
+    <code style="color:#343a40">dark</code>
+    </small>
 	</li>
-	<li class="fragment"><p>Use for links</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;"><code><a href="#" style="color:#0275d8">primary</a></code> <code><a href="#" style="color:#5cb85c">success</a></code> <code><a href="#" style="color:#5bc0de">info</a></code> <code><a href="#" style="color:#f0ad4e">warning</a></code><br> <code><a href="#" style="color:#D9534E">danger</a></code> <code ><a href="#" style="color: #636c72">muted</a></code></small>
-	</li>
+	<li class="fragment"><p>Use for links</p></li>
 </ul>
 
 > > Speaker Notes:
 1. You use the word text, and then one of the color keywords like: primary, success, info, warning, danger, white or muted and that will turn the text that color.
 
-1.You can use the same classes for links, but notice that there is no white link and there is an extra muted class.
+1.You can use the same class names for links.
 
 ---
 
@@ -33,14 +40,51 @@ Bootstrap has a number of colors that you can access through contextual color na
 ## <i class="fa fa-square-o"></i> Colors
 
 <ul>
-	<li><p contenteditable>`bg-COLOR` for backgrounds</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;"><code style="background:#0275d8; color:white;">primary</code> <code style="background:#5cb85c; color:white;">success</code> <code style="background:#5bc0de; color:white;">info</code> <code style="background:#f0ad4e; color:white;">warning</code><br> <code style="background:#D9534E; color:white;">danger</code> <code style="background:#292b2c; color:white;">inverse</code>  <code style="background:#f7f7f7; color:black;">faded</code></small>
+	<li class="fragment"><p contenteditable>`bg-COLOR` for backgrounds</p>
+		<small style="line-height: 120%; vertical-align: text-bottom;">
+    <code style="backbround-color:#0275d8; color: white;">primary</code>
+    <code style="backbround-color:#868e96; color: white;">secondary</code>
+    <code style="backbround-color:#5cb85c; color: white;">success</code>
+    <code style="backbround-color:#D9534E; color: white;">danger</code><br>
+    <code style="backbround-color:#f0ad4e; color: white;">warning</code>
+    <code style="backbround-color:#5bc0de; color: white;">info</code>
+    <code style="backbround-color:#f8f9fa; color: white;; background-color:gray;">light</code>
+    <code style="backbround-color:#343a40; color: white;">dark</code>
+    </small>
 	</li>
+
 </ul>
 
 
 > > Speaker Notes:
 1. Another way you can use them is to color the background of elements, there are a couple of extra colors here called inverse for a reversed look as well as faded for a light gray background.
+
+---
+
+<!-- .slide: data-state="hasicon" -->
+
+## <i class="fa fa-square-o"></i> Colors
+
+<ul>
+	<li class="fragment"><p contenteditable>`bg-COLOR` for backgrounds</p>
+		<small style="line-height: 120%; vertical-align: text-bottom;">
+    <code style="color:#0275d8">primary</code>
+    <code style="color:#868e96">secondary</code>
+    <code style="color:#5cb85c">success</code>
+    <code style="color:#D9534E">danger</code><br>
+    <code style="color:#f0ad4e">warning</code>
+    <code style="color:#5bc0de">info</code>
+    <code style="color:#f8f9fa; background-color:gray;">light</code>
+    <code style="color:#343a40">dark</code>
+    </small>
+	</li>
+
+</ul>
+
+
+> > Speaker Notes:
+1. Finally, there is a way to control the outline of elements in some cases
+
 
 ## Demo
 
