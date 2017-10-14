@@ -12,8 +12,8 @@ This version of bootstrap has a lot of different installation options. Let's tak
 <ul>
 	<li class="fragment">CSS and JS</li>
   <li class="fragment">Bootstrap CDN</li>
-	<li class="fragment">Source Files</li>
-	<li class="fragment">Package Managers</li>
+	<li class="fragment">Source files</li>
+	<li class="fragment">Package managers</li>
 </ul>
 
 > > Speaker Notes:
