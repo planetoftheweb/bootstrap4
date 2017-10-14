@@ -10,19 +10,17 @@ In order to get things going, let's talk about the minimum template required to 
 ## Using Scrollspy
 
 <ul>
-	<li class="fragment">Download JS &amp; CSS</li>
+	<li class="fragment">Download JS and CSS</li>
 	<li class="fragment">Basic HTML document</li>
 	<li class="fragment">jQuery</li>
-	<li class="fragment">Tether</li>
+	<li class="fragment">Popper</li>
 </ul>
 
 > > Speaker Notes:
-1. You can install Bootstrap in one of four ways. The first is to simply download the pre-compiled Bootstrap CSS and JavaScript files. That works well if you need to install a copy of bootstrap that will work even without an internet connection.
+- Let's get started creating the minimum template required to work with Bootstrap. In the last video, I showed you the different options for installing bootstrap. We're going to use the option where we download the files that we need locally.
 
-3. The second way to install Bootstrap is to download the source files. This way, you download not just the css and javascript but all of the files that the developers used to create bootstrap, which includes everything including the original sass files and the documentation. You probably only want to do this if you want to contribute to the project or customize bootstrap. We wont be talking about this option in this course.
+- In addition to downloading bootstrap, you need to get two additional libraries to make things work properly. Bootstrap requires that you install a copy of jQuery. jQuery is a library that makes it easier and more consistent to work with JavaScript. You can get a copy of jQuery at this URL.
 
-1. The third way is to use CDNs. A CDN is a content delivery network, which means a place that hosts common libraries like Bootstrap. When someone visits a site that uses  a CDN link, their browser will check it's cache or memory to see if the visitor has been to a similar site that's also using the same link. If that's the case, then the browser will load the cached version of the library. Since it's already stored in memory, that makes the new site load faster since the browser won't have to request the file.
+- In order for certain components to work properly, you're going to need to download and install a copy of a library called popper. You can get more information about and download that library at this URL.
 
-1.The last way is to use a package manager. That means using something like NPM, Bower, Composer or NuGet. These are advanced installations that make it easier to work with package managers that help you work with more complex projects.
-
-To get instructions and to download a copy of bootstrap manually, you can go to this URL https://v4-alpha.getbootstrap.com/getting-started/download/#package-managers.
+- As I mentioned, I already downloaded all of the files for you and placed them in the exercises for this course.
