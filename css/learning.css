@@ -84,6 +84,10 @@ body {
   margin: 20px 0;
   padding: 0 5%; }
 
+.reveal li p {
+  margin: 0;
+  padding: 0; }
+
 /* Ensure certain elements are never larger than the slide itself */
 .reveal img,
 .reveal video {
