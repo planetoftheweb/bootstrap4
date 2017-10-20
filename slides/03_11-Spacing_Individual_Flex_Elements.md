@@ -5,6 +5,8 @@ Individual Flex Elements
 > > Speaker Notes:
 So far, we've been looking at how we control the display of a group of elements. In this video, I'll focus on how to do that with individual individual items. There's quite a few options, so let's take a look and then work through some code.
 
+---
+
 <!-- .slide: data-state="hasicon" -->
 
 ## <i class="fa fa-th"></i> Align Self
