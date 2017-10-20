@@ -14,7 +14,11 @@
 03_08-Grid_Alignment_Options
 03_09-Using_Display_Properties
 03_10-Flexbox_Container_Options
-03_11-Controlling_Individual_Elements
+03_11-Spacing_Individual_Flex_Elements
+03_12-Floating_Elements
+03_13-MarginPadding
+03_14-ControllingVisibility
+03_15-Sizing_Utilities
 04_02-Creating_a_Basic_Nav
 04_03-Navbars
 04_04-Navbar_Brand
