@@ -1,6 +1,6 @@
 <!-- .slide: data-state="title" -->
 # Bootstrap 4
-Individual Elements
+Sizing Utilities
 
 > > Speaker Notes:
 It's super common to show or hide certain elements in our layouts. Bootstrap provides a number of classes as well as breakpoints to help you take care of this. We've already covered them in the video on the display classes, but there's a couple of new classes available to manage screen readers. Let's take a look at how they work.

@@ -1,6 +1,6 @@
 <!-- .slide: data-state="title" -->
 # Bootstrap 4
-Individual Elements
+Margin/Padding
 
 > > Speaker Notes:
 One of the riches group of classes in Bootstrap are the spacing classes. This mimics exactly the margin and padding classes in CSS. They look really complicated, but once you get used to them, you'll pick them up quickly. Let's take a look.
