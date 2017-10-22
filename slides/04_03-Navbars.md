@@ -20,7 +20,6 @@ The navbar component is related to the nav component, so if you're familiar with
 			<code style="background:#5cb85c; color:white;">xl</code> >1200px
 		</small><br>
 	</li>
-	<li class="fragment">`navbar-nav`</li>
 </ul>
 
 
@@ -66,13 +65,11 @@ The navbar component is related to the nav component, so if you're familiar with
 <!-- .slide: data-state="hasicon" -->
 
 ## <i class="fa fa-bars"></i> navbar-nav Options
-<ul>
-	<li class="fragment">`nav-item`</li>
-	<li class="fragment">`nav-link`</li>
-	<li class="fragment">`active`</li>
-	<li class="fragment">`disabled`</li>
-</ul>
-
+  - `navbar-nav` container
+	- `nav-item`
+	- `nav-link`
+	- `active`
+	- `disabled`
 
 > > Notes:
 1. Just like with navs, we have a few classes to control how links look. You need a navitem on the LI if your using lists or in the anchor tag if your using the NAV tag.
