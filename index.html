@@ -96,6 +96,29 @@
 
 			Reveal.addEventListener( 'ready', function( event ) {
 
+        //Hide the mouse after a second of not moving it.
+        var mouseHidden = false;
+        var mouseNode = document.querySelector('html');
+        var mouseTimer;
+
+        document.addEventListener('mousemove', function() {
+          if (!mouseHidden) {
+              mouseHidden = false;
+              clearTimeout(mouseTimer);
+              mouseNode.style.cursor='default';
+              mouseTimer = setTimeout(function() {
+                mouseNode.style.cursor='none';
+                mouseHidden = true;
+              }, 3000);
+          } else {
+            mouseNode.style.cursor='default';
+            mouseTimer = setTimeout(function() {
+              mouseNode.style.cursor='none';
+              mouseHidden = false;
+            }, 3000);
+          }
+        });
+
         //Modifying all the PRE tags so they are teditable
 				var preNodes = document.querySelectorAll('pre');
 				preNodes.forEach(function(item) {
@@ -120,7 +143,9 @@
 
 				setTimeout(function() {
 						var myNode = document.querySelector('.footer');
-						myNode.classList.toggle('fadeout');
+            if (myNode) {
+              myNode.classList.toggle('fadeout');
+            }
 				}, 5000);
 
 			}); // ready
