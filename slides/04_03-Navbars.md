@@ -35,17 +35,18 @@ The navbar component is related to the nav component, so if you're familiar with
 
 ## <i class="fa fa-bars"></i> Navbar Colors
 <ul>
-<li><p contenteditable>`bg-COLOR` for backgrounds</p>
+<li class="fragment"><p contenteditable>`bg-COLOR` for backgrounds</p>
   <small style="line-height: 120%; vertical-align: text-bottom;">
-  <code style="background:#007bff; color:white;">primary</code>
-  <code style="background:#868e96; color:white;">secondary</code>
-  <code style="background:#28a745; color:white;">success</code>
-  <code style="background:#dc3545; color:white;">danger</code><br>
-  <code style="background:#ffc107; color:white;">warning</code>
-  <code style="background:#17a2b8; color:white;">info</code>
-  <code style="background:#f8f9fa; color:black;">light</code>
-  <code style="background:#343a40; color:white;">dark</code>
-  <code style="background:white; border: 1px solid gray; color:black;">white</code></small>
+  <code style="background-color:#007bff; color: white;">primary</code>
+  <code style="background-color:#868e96; color: white;">secondary</code>
+  <code style="background-color:#28a745; color: white;">success</code>
+  <code style="background-color:#dc3545; color: white;">danger</code><br>
+  <code style="background-color:#ffc107; color: white;">warning</code>
+  <code style="background-color:#17a2b8; color: white;">info</code>
+  <code style="background-color:#f8f9fa; color: white; background-color:gray;">light</code>
+  <code style="background-color:#343a40; color: white;">dark</code>
+  <code style="background-color:#fff; border: 1px solid black; color: black;">white</code>
+  </small>
 </li>
 	<li class="fragment">`navbar-light`</li>
 	<li class="fragment">`navbar-dark`</li>
@@ -54,8 +55,8 @@ The navbar component is related to the nav component, so if you're familiar with
 
 > > Notes:
 1. You can use bg-color classes to change the color of the background navigation just like with other components if you want to use one of Bootstrap's defaults...and you can easily customize your color by changing the background-color css property to whatever you want.
-2. To control the color of the text, you can use navbar-light if your background color is light
-3. Or you can use navbar-inverse if your background color is dark
+1. To control the color of the text, you can use navbar-light if your background color is light
+1. Or you can use navbar-inverse if your background color is dark
 
 `<nav class="navbar navbar-light" style="background-color: #C4226F;">`
 `<nav class="navbar navbar-dark" style="background-color: #EEC856;">`
@@ -83,7 +84,7 @@ The navbar component is related to the nav component, so if you're familiar with
 The new navbars are much better than in previous versions and much easier to customize with css. There are a lot more options so we'll take a look at them in the remainder of the chapter.
 
 ```
- <nav class="navbar navbar-light bg-faded navbar-toggleable-sm">
+ <nav class="navbar navbar-light bg-faded navbar-expand-sm">
    <div class="container">
     <nav class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Home</a>
