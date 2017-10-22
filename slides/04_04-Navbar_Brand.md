@@ -4,7 +4,7 @@ Navbar Brand & Text
 
 > > Speaker Notes:
 In addition to the obvious navbar-nav, you can add other components to your navigation. The simplest to use is called the brand, and it's used for text or logos that gets an enhanced look. Another simple component is the navbar text so that you can add inline text that works with the rest of the navigation.
- 
+
 ---
 
 <!-- .slide: data-state="hasicon" -->
@@ -27,7 +27,7 @@ In addition to the obvious navbar-nav, you can add other components to your navi
 Navbar brands are prety common inside navs, they look great but do require a bit of extra work. Adding text is also easy with the navbar-text class.
 
 ```
-<nav class="navbar navbar-inverse bg-info navbar-toggleable-sm">
+<nav class="navbar navbar-inverse bg-info navbar-expand-sm">
   <div class="container">
     <a class="navbar-brand mb-0" href="#">
       <img src="images/wisdompetlogo.svg" style="width: 80px" alt="Wisdom Pet Logo">
