@@ -24,7 +24,7 @@ In addition to the obvious navbar-nav, you can add other components to your navi
 1. Navbar text allows you to place some text into the navigation that aligns as best as possible with the rest of the content.
 
 # Conclusion
-Navbar brands are prety common inside navs, they look great but do require a bit of extra work. Adding text is also easy with the navbar-text class.
+Navbar brands are pretty common inside navs, they look great but do require a bit of extra work. Adding text is also easy with the navbar-text class.
 
 ```
 <nav class="navbar navbar-inverse bg-info navbar-expand-sm">
