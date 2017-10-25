@@ -4,7 +4,7 @@ Using Form Elements
 
 > > Speaker Notes:
 Form elements are pretty easy to implement with just a few classes to learn. Let's take a look.
-  
+
 ---
 
 <!-- .slide: data-state="hasicon" -->
@@ -22,10 +22,10 @@ Form elements are pretty easy to implement with just a few classes to learn. Let
 3. You may need to add some additional spacing classes as needed.
 
 # Conclusion
-Dropdowns are a bit complicated to set up.
+Form elements are pretty simple to set up and useful when building complex navigation components.
 
 ```
-<nav class="navbar navbar-inverse bg-primary navbar-toggleable-sm">
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
   <div class="container">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Home</a>
@@ -37,7 +37,7 @@ Dropdowns are a bit complicated to set up.
 
     <form class="form-inline">
       <input class="form-control mr-2" type="text" placeholder="Search">
-      <button class="btn btn-info" type="submit">Go</button>
+      <button class="btn btn-outline-light" type="submit">Go</button>
     </form>
 
   </div><!-- container -->
