@@ -14,7 +14,7 @@ There are a number of classes to help you create buttons, so let's take a look i
 <ul>
 	<li class="fragment">`btn` basic class</li>
 	<li class="fragment"><p contenteditable>`btn-SIZ`</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;">		<b>SIZ:</b>
+		<small style="line-height: 120%; vertical-align: text-bottom;">		<b>SIZ:</b>
 			<code style="background:#5cb85c; color:white;">sm</code>
 			<code style="background:#5cb85c; color:white;">lg</code>
 		</small><br>
@@ -35,7 +35,7 @@ There are a number of classes to help you create buttons, so let's take a look i
 
 <ul>
 	<li><p contenteditable>`btn-COLOR`</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;">
+		<small style="line-height: 120%; vertical-align: text-bottom;">
 			<code style="background:#007bff; color:white;">primary</code>
       <code style="background:#868e96; color:white;">secondary</code>
       <code style="background:#28a745; color:white;">success</code>
@@ -48,7 +48,7 @@ There are a number of classes to help you create buttons, so let's take a look i
 		</small>
 	</li>
 	<li class="fragment"><p contenteditable>`btn-outline-COLOR`</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;">
+		<small style="line-height: 120%; vertical-align: text-bottom;">
       <code style="background: transparent; border: 1px solid #007bff; color: #007bff;">primary</code>
       <code style="background: transparent; border: 1px solid #868e96; color: #868e96;">secondary</code>
       <code style="background: transparent; border: 1px solid #28a745; color: #28a745;">success</code>
