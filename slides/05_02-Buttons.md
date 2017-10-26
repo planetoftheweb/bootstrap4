@@ -80,9 +80,53 @@ There are a number of classes to help you create buttons, so let's take a look i
 > > Speaker Notes:
 1. There are some additional options to make a button take up the full width of it's container, which is common when working on mobile devices.
 2. There is an active class makes the button look like it's active
-3. And of course the disabled class displays as disabled and prevents you from clicking the button through styles.
+3. And of course the disabled class displays as disabled
 
 ## Demo
 
 ## Conclusion
 Buttons can be used inside menus, forms and in other components, so they're an integral part of working with bootstrap.
+
+```
+
+<h2>Types</h2>
+<a class="btn btn-primary" href="#" role="button">Link</a>
+<button class="btn btn-primary" type="submit">Button</button>
+<input class="btn btn-primary" type="submit" value="Input">
+
+<h2>Contextual Classes</h2>
+<button class="btn" >Default</button>
+<button class="btn btn-primary" >Primary</button>
+<button class="btn btn-secondary" >Secondary</button>
+<button class="btn btn-success" >Success</button>
+<button class="btn btn-info" >Info</button>
+<button class="btn btn-warning" >Warning</button>
+<button class="btn btn-danger" >Danger</button>
+<button class="btn btn-link" >Link</button>
+
+<h2>Outline</h2>
+<button class="btn btn-outline-primary">Primary</button>
+<button class="btn btn-outline-secondary">Secondary</button>
+<button class="btn btn-outline-success">Success</button>
+<button class="btn btn-outline-info">Info</button>
+<button class="btn btn-outline-warning">Warning</button>
+<button class="btn btn-outline-danger">Danger</button>
+
+<h2>Sizes</h2>
+<button class="btn btn-success">Default</button>
+<button class="btn btn-success btn-lg">Large</button>
+<button class="btn btn-success btn-sm">Small</button>
+<button class="btn btn-success btn-block">Block</button>
+
+<h2>States</h2>
+<h3>Active</h3>
+<button class="btn btn-info">Regular Button</button>
+<button class="btn btn-info active">Active Button</button>
+
+<h3>Disabled</h3>
+<button class="btn btn-info">Regular Button</button>
+<button class="btn btn-info disabled">Disabled Button</button>
+<a href="#" class="btn btn-link disabled">Disabled Link Button</a>
+
+
+```
