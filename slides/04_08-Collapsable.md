@@ -4,7 +4,7 @@ Collapsable Content
 
 > > Speaker Notes:
 Bootstrap has a couple of tags that lets you create collapsable content which is a common technique you can use to collapse a navbar into a hamburger menu. You'll need two pieces. First is the content that you want to collapse and then you need an element that will do the toggling.
-  
+
 ---
 
 <!-- .slide: data-state="hasicon" -->
@@ -27,7 +27,7 @@ Bootstrap has a couple of tags that lets you create collapsable content which is
 
 ## <i class="fa fa-bars"></i> Toggler Classes
 <ul>
-	<li class="fragment">`navbar-toggler` &amp; Alignment</li>
+	<li class="fragment">`navbar-toggler`</li>
 	<li class="fragment">Other Properties</li>
 	<li class="fragment">`navbar-toggler-icon`</li>
 </ul>
@@ -43,36 +43,28 @@ Bootstrap has a couple of tags that lets you create collapsable content which is
 Alignment is pretty easy to do with any element because navigation uses flexbox. Some of these placement classes are also pretty useful when building real world navigation elements.
 
 ```
-<nav class="navbar navbar-inverse bg-primary navbar-toggleable-sm">
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
   <div class="container">
-      <a href="#" class="navbar-brand mr-auto">Wisdom Pet Medicine</a>
-      <div class="navbar-nav">
+
+    <a href="#" class="navbar-brand">Wisdom Pet Medicine</a>
+
+    <button class="navbar-toggler" type="button"
+      data-toggle="collapse" data-target="#myTogglerNav"
+      aria-controls="myTogglerNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="myTogglerNav">
+      <div class="navbar-nav ml-auto">
         <a class="nav-item nav-link active" href="#">Home</a>
         <a class="nav-item nav-link" href="#">Mission</a>
         <a class="nav-item nav-link" href="#">Services</a>
         <a class="nav-item nav-link" href="#">Staff</a>
         <a class="nav-item nav-link" href="#">Testimonials</a>
-      </div><!-- navbar-nav -->
-  </div><!-- container -->
-</nav><!-- nav -->
-```
+      </div><!-- navbar -->
+    </div><!-- collapse -->
 
-```
-<nav class="navbar navbar-inverse bg-success navbar-toggleable-sm">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-    data-target="#myContent" aria-controls="myContent" aria-expanded="false"
-    aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a href="#" class="navbar-brand">Wisdom Pet Medicine</a>
-  <div class="collapse navbar-collapse" id="myContent">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home</a>
-      <a class="nav-item nav-link" href="#">Mission</a>
-      <a class="nav-item nav-link" href="#">Services</a>
-      <a class="nav-item nav-link" href="#">Staff</a>
-      <a class="nav-item nav-link" href="#">Testimonials</a>
-    </div><!-- navbar-nav -->
-  </div><!-- collapse -->
+  </div><!-- container -->
 </nav><!-- nav -->
 ```
