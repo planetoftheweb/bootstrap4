@@ -34,12 +34,12 @@ List groups are a great way to style lists and other elements like buttons and l
 		<small style="line-height: 220%; vertical-align: text-bottom;">
 			<code style="background:#b8daff; color:#004085;">primary</code>
 			<code style="background:#dddfe2; color:#464a4e;">secondary</code>
-			<code style="background:#d9edf7; color:#155724;">success</code>
-			<code style="background:#fcf8e3; color:#721c24;">danger</code>
-			<code style="background:#f2dede; color:#856404;">warning</code>
-			<code style="background:#f2dede; color:#0c5460;">info</code>
-			<code style="background:#f2dede; color:#818182;">light</code>
-			<code style="background:#f2dede; color:#1b1e21;">dark</code>
+			<code style="background:#c3e6cb; color:#155724;">success</code>
+			<code style="background:#f5c6cb; color:#721c24;">danger</code>
+			<code style="background:#ffeeba; color:#856404;">warning</code>
+			<code style="background:#bee5eb; color:#0c5460;">info</code>
+			<code style="background:#fdfdfe; color:#818182;">light</code>
+			<code style="background:#c6c8ca; color:#1b1e21;">dark</code>
 		</small>
 	</li>
 </ul>
@@ -62,9 +62,40 @@ List groups are a great way to style lists and other elements like buttons and l
 
 > > Speaker Notes:
 1. It's common to add badges to list groups. You can use the badge and other classes to add these to list groups.
-2. For badges to align properly, you can use the justify-content-between flexbox class. As a matter of fact, you can add any sort of element inside a list-group.
+2. For badges to align properly, you can use the justify-content-between flexbox class. As a matter of fact, you can add any sort of spacing classes inside a list-group.
 
 ## Demo
 
 ## Conclusion
 List groups can be a handy component to use in limited situations, specially for mobile type apps. Bootstrap provides a really comprehensive group of classes to use with this component.
+
+
+```
+<section class="content" id="services">
+  <h3>Exotic Pets</h3>
+  <p>We offer <strong>specialized</strong> care for <em>reptiles, rodents, birds,</em> and other exotic pets.</p>
+
+<ul class="list-group mb-3">
+  <li class="list-group-item active"><h3 class="mb-0">Grooming</h3></li>
+  <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">General Health <span class="badge badge-primary badge-pill">12</span></li>
+  <li class="list-group-item list-group-item-action">Nutrition</li>
+  <li class="list-group-item list-group-item-action disabled">Pest Control</li>
+  <li class="list-group-item list-group-item-action">Vaccinations</li>
+</ul>
+
+<div class="list-group mb-3">
+  <a class="list-group-item list-group-item-action active" href="#">Grooming</a>
+  <a class="list-group-item list-group-item-action list-group-item-success" href="#">General Health</a>
+  <a class="list-group-item list-group-item-action list-group-item-info" href="#">Nutrition</a>
+  <a class="list-group-item list-group-item-action list-group-item-warning" href="#">Pest Control</a>
+  <a class="list-group-item list-group-item-action list-group-item-danger" href="#">Vaccinations</a>
+</div>
+
+<div class="list-group mb-3">
+  <button class="list-group-item list-group-item-action active" type="button">Grooming </button>
+  <button class="list-group-item list-group-item-action" type="button">General Health</button>
+  <button class="list-group-item list-group-item-action" type="button">Nutrition</button>
+  <button class="list-group-item list-group-item-action" type="button">Pest Control</button>
+  <button class="list-group-item list-group-item-action" type="button">Vaccinations</button>
+</div>
+```
