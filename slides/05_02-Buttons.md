@@ -44,7 +44,6 @@ There are a number of classes to help you create buttons, so let's take a look i
       <code style="background:#17a2b8; color:white;">info</code>
       <code style="background:#f8f9fa; color:black;">light</code>
       <code style="background:#343a40; color:white;">dark</code>
-			<code style="background:none;"><a href="#" style="color: #0275d8; text-decoration: underline">link</a></code>
 		</small>
 	</li>
 	<li class="fragment"><p contenteditable>`btn-outline-COLOR`</p>
