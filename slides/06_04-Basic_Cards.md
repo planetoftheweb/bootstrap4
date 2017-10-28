@@ -13,8 +13,6 @@ Cards are a new design pattern in Bootstrap 4 that help you layout content into 
 
 - `card` container
 - `card-body`
-- `card-header`
-- `card-footer`
 
 > > Speaker Notes:
 1. All cards require a container and in order to get things going, you need to add the card class to activate the features. Cards have a mild rounded edge at the top.
@@ -29,41 +27,12 @@ Cards are a new design pattern in Bootstrap 4 that help you layout content into 
 - `card-title`
 - `card-subtitle`
 - `card-link`
+- `card-img`
 
 > > Speaker Notes:
 1. There are a number of classes for specific content like titles, which you can use with headline tags to style card titles
 2. You can also use card-subtitle for of course subtitles.
 3. Links get their own special links called card-link.
-
----
-
-<!-- .slide: data-state="hasicon" -->
-
-## <i class="fa fa-list-alt"></i> List Groups
-
-- `list-group` container
-- `list-group-item`
-- `list-group-flush`
-
-> > Speaker Notes:
-1. There are a number of classes for specific content like titles, which you can use with headline tags to style card titles
-2. You can also use card-subtitle for of course subtitles.
-3. Links get their own special links called card-link.
-
----
-
-<!-- .slide: data-state="hasicon" -->
-
-## <i class="fa fa-list-alt"></i> Card Images
-
-- `card-img-top`
-- `card-img-bottom`
-- `card-img-overlay`
-
-> > Speaker Notes:
-1. Images get some special classes. You can use two classes to give images the proper borders. card-img-top gives you an image with round edges at the top.
-2. card-img-bottom gives you images with the proper roundness at the bottom. By the way, if you don't want the roundness, you don't use an image class.
-3. card-img-overlay is a special class to let you build a card with a background image.
 
 ---
 
