@@ -21,7 +21,7 @@ Tooltips are a great way to show additional information on links and buttons.
 
 ---
 
-## Activating
+## Configuration &amp; Activation
 
   - `data` or JS Configuration
   - JavaScript Activation
