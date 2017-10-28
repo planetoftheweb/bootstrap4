@@ -9,9 +9,12 @@ Cards are a new design pattern in Bootstrap 4 that help you layout content into 
 
 <!-- .slide: data-state="hasicon" -->
 
-## <i class="fa fa-list-alt"></i> Basic Card Class
+## <i class="fa fa-list-alt"></i> Basic Card Classes
 
 - `card` container
+- `card-body`
+- `card-header`
+- `card-footer`
 
 > > Speaker Notes:
 1. All cards require a container and in order to get things going, you need to add the card class to activate the features. Cards have a mild rounded edge at the top.
@@ -20,13 +23,27 @@ Cards are a new design pattern in Bootstrap 4 that help you layout content into 
 
 <!-- .slide: data-state="hasicon" -->
 
-## <i class="fa fa-list-alt"></i> Card Items
+## <i class="fa fa-list-alt"></i> Card Content
 
-- `card-body`
 - `card-text`
 - `card-title`
 - `card-subtitle`
 - `card-link`
+
+> > Speaker Notes:
+1. There are a number of classes for specific content like titles, which you can use with headline tags to style card titles
+2. You can also use card-subtitle for of course subtitles.
+3. Links get their own special links called card-link.
+
+---
+
+<!-- .slide: data-state="hasicon" -->
+
+## <i class="fa fa-list-alt"></i> List Groups
+
+- `list-group` container
+- `list-group-item`
+- `list-group-flush`
 
 > > Speaker Notes:
 1. There are a number of classes for specific content like titles, which you can use with headline tags to style card titles
