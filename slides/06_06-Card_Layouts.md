@@ -9,7 +9,7 @@ There is a number of ways to control the layout of your cards. Some are simpler 
 
 <!-- .slide: data-state="hasicon" -->
 
-## <i class="fa fa-list-alt"></i> Layout Containers
+## <i class="fa fa-list-alt"></i> Card Layout Containers
 
 <ul>
 	<li class="fragment">`card-group`</li>
