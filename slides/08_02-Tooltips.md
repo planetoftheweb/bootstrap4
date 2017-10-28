@@ -10,14 +10,12 @@ Tooltips are a great way to show additional information on links and buttons.
 
 <ul>
 	<li class="fragment">Links or Controls</li>
-	<li class="fragment">Uses <a href="http://tether.io/">Tether</a> Library</li>
 	<li class="fragment">`data-toggle="tooltip"`</li>
 	<li class="fragment">`title="text"`</li>
 </ul>
 
 > > Speaker Notes:
 1. You should only use tooltips on HTML elements that are focusable like links and form controls because of problems with usability.
-2. Tooltips use an extra library called tether, which is a separate installation. You can read more about it on [this website](http://tether.io).
 3. In order to set these up, you simply add a data-toggle of tooltip to an element and then add a title attribute with some text in it.
 
 
@@ -25,11 +23,10 @@ Tooltips are a great way to show additional information on links and buttons.
 
 ## Activating
 
-<ul>
-	<li class="fragment">JavaScript or `data`</li>
-</ul>
+  - `data` or JS Configuration
+  - JavaScript Activation
 
-```javascript
+```
 $(function () {
   $('[data-toggle="tooltip"]').tooltip({ OPTIONS })
 })
@@ -59,22 +56,22 @@ $(function () {
 
 <ul>
 	<li class="fragment">`placement`
-		<small style="line-height: 220%; vertical-align: text-bottom;">
+		<small style="line-height: 120%; vertical-align: text-bottom;">
 			<code style="background:#5cb85c; color:white;">top</code>
 			<code style="background:#5cb85c; color:white;">right</code>
 			<code style="background:#5cb85c; color:white;">bottom</code>
 			<code style="background:#5cb85c; color:white;">left</code>
 		</small>
 	</li>
-	<li class="fragment">`trigger` 
-		<small style="line-height: 220%; vertical-align: text-bottom;">
+	<li class="fragment">`trigger`
+		<small style="line-height: 120%; vertical-align: text-bottom;">
 			<code style="background:#5cb85c; color:white;">click</code>
 			<code style="background:#5cb85c; color:white;">hover</code>
 			<code style="background:#5cb85c; color:white;">focus</code>
 		</small>
 	</li>
-	<li class="fragment">`html` 
-		<small style="line-height: 220%; vertical-align: text-bottom;">
+	<li class="fragment">`html`
+		<small style="line-height: 120%; vertical-align: text-bottom;">
 			<code style="background:#5cb85c; color:white;">true</code>
 			<code style="background:#5cb85c; color:white;">false</code>
 		</small>
@@ -100,5 +97,5 @@ There are several more advanced options and configurations for tooltips, so make
     $('[data-toggle="tooltip"]').tooltip({
     })
   })
+</script>
 ```
-
