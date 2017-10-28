@@ -34,8 +34,8 @@ $(function () {
 <!-- .element: data-trim="true" contenteditable="true" class="fragment" -->
 
 ```
-<div class="tooltip tooltip-top" role="tooltip">
-  <div class="tooltip-arrow"></div>
+<div class="tooltip bs-tooltip-top" role="tooltip">
+  <div class="arrow"></div>
   <div class="tooltip-inner">
     Some tooltip text!
   </div>
