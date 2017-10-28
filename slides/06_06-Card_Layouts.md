@@ -9,32 +9,13 @@ There is a number of ways to control the layout of your cards. Some are simpler 
 
 <!-- .slide: data-state="hasicon" -->
 
-## <i class="fa fa-list-alt"></i> Traditional Layouts
+## <i class="fa fa-list-alt"></i> Layout Containers
 
 <ul>
-	<li class="fragment">`col` grid</li>
-	<li class="fragment">Flexbox grid</li>
-</ul>
-
-> > Speaker Notes:
-1. Obviously, the first way you can control layout is through flexbox. It's a bit harder to do, but gives you the most control over the positioning of the elements.
-
-1. Of course, you can use the column grid. That's a great way to layout elements, and it's easier to control what happens with the columns, but it requires extra markup. We'll look at some examples.
-
-```
-<div class="container d-flex flex-wrap justify-content-between">
-  <section class="card mb-4" id="drwinthrop" style="width:32.5%">
-```
----
-
-<!-- .slide: data-state="hasicon" -->
-
-## <i class="fa fa-list-alt"></i> Layout Classes
-
-<ul>
-	<li class="fragment">`card-group` containers</li>
+	<li class="fragment">`card-group`</li>
 	<li class="fragment">`card-deck`</li>
-	<li class="fragment">`card-columns`</li>
+  <li class="fragment">`card-columns`</li>
+  <li class="fragment">Rows &amp; Columns</li>
 </ul>
 
 > > Speaker Notes:
