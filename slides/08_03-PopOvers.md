@@ -9,7 +9,6 @@ Popovers are another component that lets you display additional content triggere
 ## Using PopOvers
 
 <ul>
-	<li class="fragment">Uses <a href="http://tether.io/">Tether</a> Library</li>
 	<li class="fragment">`data-toggle="popover"`</li>
 	<li class="fragment">`title="text"`</li>
 	<li class="fragment">`data-content="content"`</li>
@@ -17,7 +16,7 @@ Popovers are another component that lets you display additional content triggere
 
 > > Speaker Notes:
 2. Tooltips use an extra library called tether, which is a separate installation. You can read more about it on [this website](http://tether.io).
-3. In order to set these up, you simply add a data-toggle of tooltip to an element and then add a title attribute with some text in it.
+3. In order to set these up, you simply add a data-toggle of popover to an element and then add a title attribute with some text in it.
 
 
 ---
@@ -26,24 +25,15 @@ Popovers are another component that lets you display additional content triggere
 
 ```javascript
 $(function () {
-  $('[data-toggle="popover"]').popover()
+  $('[data-toggle="popover"]').popover({ OPTIONS })
 })
 ```
 <!-- .element: data-trim="true" contenteditable="true" class="fragment" -->
 
-```
-<div class="popover" role="tooltip">
-	<div class="popover-arrow"></div>
-	<h3 class="popover-title"></h3>
-	<div class="popover-content"></div>
-</div>
-```
-<!-- .element: data-trim="true" contenteditable="true" class="fragment" -->
-
+https://getbootstrap.com/docs/4.0/components/popovers/
 > > Speaker Notes:
 1. Just like with popovers, you have to initialize them through some javascript and you can pass along some options.
 2. Here's the default template, you can create your own template and pass it along with the template parameter of the configuration object.
-
 
 
 ---
@@ -51,15 +41,15 @@ $(function () {
 
 <ul>
 	<li class="fragment">`placement`
-		<small style="line-height: 220%; vertical-align: text-bottom;">
+		<small style="line-height: 120%; vertical-align: text-bottom;">
 			<code style="background:#5cb85c; color:white;">top</code>
 			<code style="background:#5cb85c; color:white;">right</code>
 			<code style="background:#5cb85c; color:white;">bottom</code>
 			<code style="background:#5cb85c; color:white;">left</code>
 		</small>
 	</li>
-	<li class="fragment">`trigger` 
-		<small style="line-height: 220%; vertical-align: text-bottom;">
+	<li class="fragment">`trigger`
+		<small style="line-height: 120%; vertical-align: text-bottom;">
 			<code style="background:#5cb85c; color:white;">click</code>
 			<code style="background:#5cb85c; color:white;">hover</code>
 			<code style="background:#5cb85c; color:white;">focus</code>
@@ -69,7 +59,7 @@ $(function () {
 </ul>
 
 > > Speaker Notes:
-1. There are a lot of options that you can pass through the data parameters or the configuration object. The three most common are the placement, which decides where the tooltip will appear.
+1. There are a lot of options that you can pass through the data parameters or the configuration object. The three most common are the placement, which decides where the popover will appear.
 2. The trigger, which by default is over hover, but can be configured to some other methods.
 3. Finally, you can add some simple HTML into the title, but it has to be turned on.
 
