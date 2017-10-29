@@ -65,7 +65,7 @@ The carousel is the most popular bootstrap component. There's really not much to
 </ul>
 
 > > Speaker Notes:
-1. You can add previous and next icons on the images using classes. 
+1. You can add previous and next icons on the images using classes.
 
 ---
 
@@ -78,7 +78,9 @@ The carousel is the most popular bootstrap component. There's really not much to
 </ul>
 
 > > Speaker Notes:
-1. You can also add indicators. They look very different from the old indicators, but are just easy to set up.
+1. You can also add indicators.
+1. The data-target attribute is essential since it indicates what carousel the indicators control
+1. data-slide-to indicates which image the current indicator will show.
 
 ---
 
@@ -120,47 +122,43 @@ $(function () {
 Carousels are very popular in Bootstrap because they give you a way to show different content within a concise space.
 
 ```
-<style>
- #featured img {
-   width: 100%;
-   height: 100%;
- }
-</style>
-
 <div class="carousel slide" id="featured" data-ride="carousel">
-
-  <ol class="carousel-indicators">
-    <li data-target="#featured" data-slide-to="0" class="active"></li>
-    <li data-target="#featured" data-slide-to="1"></li>
-    <li data-target="#featured" data-slide-to="2"></li>
-  </ol>
-
-  <div class="carousel-inner" role="listbox">
+  <div class="carousel-inner">
+    <ol class="carousel-indicators">
+      <li data-target="#featured" data-slide-to="0" class="active">
+        <li data-target="#featured" data-slide-to="1" class="active">
+          <li data-target="#featured" data-slide-to="2" class="active">
+    </ol>
     <div class="carousel-item active">
-      <img class="d-block img-fluid" src="images/carousel-lifestyle.jpg" alt="Lifestyle Photo">
+      <img class="img-fluid" src="images/carousel-lifestyle.jpg" alt="Lifestyle Photo">
     </div>
+    <!-- carousel-item -->
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="images/carousel-fish.jpg" alt="Mission">
+      <img class="img-fluid" src="images/carousel-fish.jpg" alt="Mission">
       <div class="carousel-caption d-none d-md-block">
-        <h3>Pete, <small>owner of McAllister</small></h3>
+        <h3>Pete,
+          <small>owner of McAllister</small>
+        </h3>
         <p>"Wisdom Pet Medicine is the only clinic around that will even book pet fish for appointments."</p>
       </div>
-
     </div>
+    <!-- carousel-item -->
     <div class="carousel-item">
       <img class="d-block img-fluid" src="images/carousel-vaccinations.jpg" alt="Vaccinations">
     </div>
-  </div><!-- carousel-inner -->
-
-  <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#featured" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-
-</div><!-- carousel -->
-
+    <!-- carousel-item -->
+    <a class="carousel-control-prev" href="#featured" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true">
+        <span class="sr-only">Previous</span>
+      </span>
+    </a>
+    <a class="carousel-control-next" href="#featured" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true">
+        <span class="sr-only">next</span>
+      </span>
+    </a>
+  </div>
+  <!-- carousel-inner -->
+</div>
+<!-- carousel -->
 ```
