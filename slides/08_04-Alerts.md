@@ -9,21 +9,18 @@ Alerts are messages with special contextual styles that are designed to display 
 
 ## Setting up Alerts
 
-<ul>
-	<li class="fragment">`alert`</li>
-	<li class="fragment"><p contenteditable>`alert-COLOR`</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;">
-			<code style="background:#dff0d8; color:#3c763d;
-				border: 1px solid #d0e9c6;">success</code>
-			<code style="background:#d9edf7; color:#245269;
-				 border: 1px solid #bcdff1;">info</code>
-			<code style="background:#fcf8e3; color: #8a6d3b;
-				 border: 1px solid #faf2cc">warning</code>
-			<code style="background:#f2dede; color:#a94442;
-				 border: 1px solid #faf2cc; ">danger</code>
-		</small>
-	</li>
-</ul>
+- `alert`
+- <p contenteditable>`alert-COLOR`</p>
+<small style="line-height: 120%; vertical-align: text-bottom;">
+<code style="background:#cce5ff; color:#004085; border: 1px solid #b8daff;">primary</code>
+<code style="background:#e7e8ea; color:#464a4e; border: 1px solid #dddfe2;">secondary</code>
+<code style="background:#d4edda; color:#155724; border: 1px solid #c3e6cb;">success</code>
+<code style="background:#f8d7da; color:#721c24; border: 1px solid #f5c6cb; ">danger</code><br>
+<code style="background:#fff3cd; color:#856404; border: 1px solid #ffeeba">warning</code>
+<code style="background:#d1ecf1; color:#0c5460; border: 1px solid #bee5eb;">info</code>
+<code style="background:#fefefe; color:#818182; border: 1px solid #fdfdfe; ">light</code>
+<code style="background:#d6d8d9; color:#1b1e21; border: 1px solid #c6c8ca; ">dark</code>
+</small>
 
 > > Speaker Notes:
 1. The basic class for creating alerts is of course called alert. It goes on a main container for the content.
