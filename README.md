@@ -1,7 +1,7 @@
 # Bootstrap 4 Essential Training
 This is the repository for my course Bootstrap 4 Essential Training. The full course is available on [LinkedIn Learning](https://www.linkedin.com/learning/bootstrap-4-essential-training?trk=insiders_6787408_learning) and [Lynda.com](https://www.lynda.com/Bootstrap-tutorials/Bootstrap-4-Essential-Training/372545-2.html)
 
-![Bootstrap 4 Essential Training](https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=KVLRopcdZaCdLg0HcOPNC5Db4o8%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-iXCev_tCfY3DrfMPaZLSiol8QeyUFkwY3eu6tSTPkEY69LcLmY4Yx3A)
+[![Bootstrap 4 Essential Training](https://media-exp2.licdn.com/media-proxy/ext?w=1200&h=675&f=n&hash=KVLRopcdZaCdLg0HcOPNC5Db4o8%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6plxVUzgUv5K_PrkC9q0RIUJDPBy-iXCev_tCfY3DrfMPaZLSiol8QeyUFkwY3eu6tSTPkEY69LcLmY4Yx3A)](https://www.linkedin.com/learning/bootstrap-4-essential-training?trk=insiders_6787408_learning)
 
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage. Or you can simply add `/tree/BRANCH_NAME` to the URL to go to the branch you want to peek at. 
