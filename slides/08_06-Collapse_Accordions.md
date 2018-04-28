@@ -32,7 +32,6 @@ Collapse and accordions are a set of related components that allow you to show o
 <ul>
 	<li class="fragment">Requires container</li>
 	<li class="fragment">`show` class once</li>
-	<li class="fragment">`dropdown-menu`</li>
 	<li class="fragment">Use `card`</li>
 </ul>
 
