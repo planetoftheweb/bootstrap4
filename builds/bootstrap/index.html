@@ -22,25 +22,32 @@
 
 
 <button class="btn btn-primary mb-3"
+  type="button"
   data-toggle="collapse"
-  data-target="#pestcontrol">Pest Control</button>
+  data-target="#pestcontrol"
+  >Pest Control</button>
 <div id="pestcontrol" class="collapse mb-3">
   We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.
 </div>
 
-<div  id="servicesaccordion"
-  role="tablist" aria-multiselectable="true">
+<div class="accordion" id="servicesaccordion">
 
   <div class="card">
-    <div class="card-header" role="tab" id="groomingheading">
+    <div class="card-header" id="groomingheading">
       <h5 class="mb-0">
-        <a data-toggle="collapse" data-parent="#servicesaccordion" href="#grooming" aria-expanded="true"
-        aria-controls="grooming">Grooming</a>
+        <a href="#grooming"
+          data-toggle="collapse"
+          aria-expanded="true"
+          aria-controls="grooming"
+        >Grooming</a>
       </h5>
     </div><!-- card header -->
 
-    <div id="grooming" class="collapse show"
-      role="tabpanel" aria-labelledby="groomingheading">
+    <div id="grooming"
+      class="collapse show"
+      data-parent="#servicesaccordion"
+      aria-labelledby="servicesaccordion"
+    >
       <div class="card-body">
         Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.
       </div>
@@ -48,16 +55,23 @@
   </div><!-- card -->
 
   <div class="card">
-    <div class="card-header" role="tab" id="generalhealthheading">
+    <div class="card-header"
+    id="generalhealthheading">
       <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" 
-        data-parent="#servicesaccordion" href="#generalhealth"
-        aria-expanded="false">General Health</a>
+        <a href="#generalhealth"
+          class="collapsed"
+          data-toggle="collapse"
+          aria-expanded="false"
+          aria-controls="generalhealth"
+        >General Health</a>
       </h5>
     </div><!-- card header -->
 
-    <div id="generalhealth" class="collapse" role="tabpanel"
-      aria-labelledby="generalhealthheading"> 
+    <div id="generalhealth"
+      class="collapse"
+      aria-labelledby="generalhealthheading"
+      data-parent="#servicesaccordion"
+    > 
       <div class="card-body">
         <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
       </div>
@@ -65,16 +79,22 @@
   </div><!-- card -->
 
   <div class="card">
-    <div class="card-header" role="tab" id="nutritionheading">
+    <div class="card-header"
+      id="nutritionheading">
       <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse"
-        data-parent="#servicesaccordion" href="#nutrition"
-        aria-expanded="false">Nutrition</a>
+        <a class="collapsed"
+          data-toggle="collapse"
+          aria-expanded="false"
+          href="#nutrition"
+        >Nutrition</a>
       </h5>
     </div><!-- card header -->
 
-    <div id="nutrition" class="collapse" role="tabpanel"
-      aria-labelledby="nutritionheading">
+    <div id="nutrition"
+      class="collapse"
+      data-parent="#servicesaccordion"
+      aria-labelledby="nutritionheading"
+    >
       <div class="card-body">
         <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease prevention.</p>
       </div>
