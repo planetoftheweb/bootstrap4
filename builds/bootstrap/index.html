@@ -21,11 +21,10 @@
 <h2>Services</h2>
 
 
-<button class="btn btn-primary mb-3"
-  type="button"
-  data-toggle="collapse"
-  data-target="#pestcontrol"
-  >Pest Control</button>
+<a class="btn btn-primary mb-3"
+      data-toggle="collapse"
+      href="#pestcontrol"
+>Pest Control</a>
 <div id="pestcontrol" class="collapse mb-3">
   We offer the latest advances in safe and effective prevention and treatment of fleas, ticks, worms, heart worm, and other parasites.
 </div>
@@ -46,17 +45,16 @@
     <div id="grooming"
       class="collapse show"
       data-parent="#servicesaccordion"
-      aria-labelledby="servicesaccordion"
-    >
+      aria-labelledby="groomingheading"
+      >
       <div class="card-body">
-        Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.
+        <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
       </div>
     </div><!-- collapse -->
-  </div><!-- card -->
+  </div><!-- card --> 
 
   <div class="card">
-    <div class="card-header"
-    id="generalhealthheading">
+    <div class="card-header" id="generalhealthheading">
       <h5 class="mb-0">
         <a href="#generalhealth"
           class="collapsed"
@@ -69,9 +67,9 @@
 
     <div id="generalhealth"
       class="collapse"
+      data-parent="#servicesaccordion"      
       aria-labelledby="generalhealthheading"
-      data-parent="#servicesaccordion"
-    > 
+      >
       <div class="card-body">
         <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
       </div>
@@ -79,13 +77,12 @@
   </div><!-- card -->
 
   <div class="card">
-    <div class="card-header"
-      id="nutritionheading">
+    <div class="card-header" id="nutritionheading">
       <h5 class="mb-0">
-        <a class="collapsed"
+        <a href="#nutrition"
+          class="collapsed"
           data-toggle="collapse"
           aria-expanded="false"
-          href="#nutrition"
         >Nutrition</a>
       </h5>
     </div><!-- card header -->
