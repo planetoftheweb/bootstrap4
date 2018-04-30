@@ -23,7 +23,7 @@ Other than headlines, Bootstrap provides some classes that help you work with co
 > > Speaker Notes:
 1. There's a couple of styles that will take care of things that we often do with lists. First is getting rid of those pesky bullets, you can do that with the list-unstyled class. However, this only works on the first level of the list elements.
 
-1. Next you can build lists that appear side by side like a menu or perhaps your own version of a breadcrumb using a combination of two links. 
+1. Next you can build lists that appear side by side like a menu or perhaps your own version of a breadcrumb using a combination of two links.
 
 1. list-inline goes on the UL element
 
@@ -51,9 +51,8 @@ Other than headlines, Bootstrap provides some classes that help you work with co
 ## <i class="fa fa-quote-right"></i> Blockquotes
 
 <ul>
-	<li class="fragment">Use `class="blockquote"`</li>
+	<li class="fragment">Use `blockquote`</li>
 	<li class="fragment">`blockquote-footer` for sources</li>
-	<li class="fragment">`blockquote-reverse` right alignment</li>
 </ul>
 
 > > Speaker Notes:
@@ -61,10 +60,9 @@ Other than headlines, Bootstrap provides some classes that help you work with co
 
 1. There is a style for an attribution called blockquote footer.
 
-1. Finally, if you want the bar to be right aligned, then you can use blockquote-reverse.
 
 ```
-<blockquote class="blockquote">
+<blockquote class="blockquote text-right">
 	<div>Wisdom Pet Medicine is the Best!!!</div>
 	<footer class="blockquote-footer">Hassum Harrod</footer>
 </blockquote>
