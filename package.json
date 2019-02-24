@@ -2,13 +2,19 @@
   "name": "bootstrap4",
   "version": "0.0.1",
   "description": "Assets for my Bootstrap 4: Essential Training Course",
+  "scripts": {
+    "start": "parcel ./builds/bootstrap/index.html"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/planetoftheweb/bootstrap4.git"
   },
   "author": "Ray Villalobos",
   "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-webserver": "^0.8.8"
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
   }
 }
