@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Learning</title>
+
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/learning.css" id="theme">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( 'print-pdf/gi' ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+<body spellcheck="false">
+<div class="reveal">
+<div class="slides">
+
+<section data-markdown="slides/demo.md" data-separator="\n---\n" data-separator-notes="\n> >">
+</section>
+
+
+</div><!-- slides -->
+
+
+</div><!-- reveal -->
+
+		<script src="js/lib/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+
+			function getUrlVars() {
+					var vars = [], hash;
+					var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+					for(var i = 0; i < hashes.length; i++)
+					{
+							hash = hashes[i].split('=');
+							vars.push(hash[0]);
+							vars[hash[0]] = hash[1];
+					}
+					return vars;
+			}
+
+			if (getUrlVars().d) {
+				var dataFile = getUrlVars().d;
+				//console.log('slides/' + dataFile + '.md');
+				document.querySelector('section').dataset.markdown = 'slides/' + dataFile + '.md';
+				//console.log(document.querySelector('section').dataset.markdown);
+			}
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+      	margin: 0,
+      	minScale: .5,
+      	maxScale: 1,
+        display: 'flex',
+				fragments: true,
+				history: true,
+				transition: 'none', // none/fade/slide/convex/concave/zoom
+    		transitionSpeed: 0, // default/fast/slow
+		    backgroundTransition: 'none',
+				center: false,
+				controls: false,
+			  progress: false,
+  			rollingLinks: false,
+        menu: {
+          transitions: false,
+          themes: false,
+          slides: false,
+          openButton: false
+        },
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'js/plugin/markdown/marked.js' },
+					{ src: 'js/plugin/markdown/markdown.js' },
+          { src: 'js/plugin/menu/menu.js' },
+					{ src: 'js/plugin/notes/notes.js', async: true },
+					{ src: 'js/plugin/highlight/highlight.js', async: true, callback: function() {
+						hljs.configure({
+							tabReplace: '  ', // 2 spaces
+						})
+						hljs.initHighlightingOnLoad();
+					}}
+				]
+			});
+
+			Reveal.addEventListener( 'ready', function( event ) {
+
+        //Hide the mouse after a second of not moving it.
+        var mouseHidden = false;
+        var mouseNode = document.querySelector('html');
+        var mouseTimer;
+
+        document.addEventListener('mousemove', function() {
+          if (!mouseHidden) {
+              mouseHidden = false;
+              clearTimeout(mouseTimer);
+              mouseNode.style.cursor='default';
+              mouseTimer = setTimeout(function() {
+                mouseNode.style.cursor='none';
+                mouseHidden = true;
+              }, 3000);
+          } else {
+            mouseNode.style.cursor='default';
+            mouseTimer = setTimeout(function() {
+              mouseNode.style.cursor='none';
+              mouseHidden = false;
+            }, 3000);
+          }
+        });
+
+        //Modifying all the PRE tags so they are teditable
+				var preNodes = document.querySelectorAll('pre');
+				preNodes.forEach(function(item) {
+					item.contentEditable=true;
+					item.dataset.trim = true;
+				}, this);
+
+        // Remove fragments in notes
+        var asideNodes = document.querySelectorAll('aside.notes li');
+				asideNodes.forEach(function(item) {
+					item.className='';
+				}, this);
+
+
+				document.addEventListener('keydown', function(e) {
+					var keyName = e.key;
+					if (keyName === 't') {
+						var myNode = document.querySelector('.footer');
+						  myNode.classList.toggle('fadeout');
+					}
+				}, false);
+
+				setTimeout(function() {
+						var myNode = document.querySelector('.footer');
+            if (myNode) {
+              myNode.classList.toggle('fadeout');
+            }
+				}, 5000);
+
+			}); // ready
+
+			Reveal.addEventListener( 'menu-ready', function( event ) {
+
+				var getFileIndex=new XMLHttpRequest();
+				getFileIndex.open('GET', 'slides/index.txt');
+
+				getFileIndex.onreadystatechange = function () {
+					if (getFileIndex.status === 200
+						&& getFileIndex.readyState === 4) {
+						var menuData = (getFileIndex.responseText).split(/\r\n|\r|\n/g);
+            menuData = menuData.filter(Boolean);
+						menuData.forEach(function(element, index) {
+							menuData[index]= '<div class="slide-menu-item"><a href="?d=' + element + '&">' + element + '</a> | <a href="slides/' + element + '.md">Notes</a></div>';
+						}, this);
+
+						var menuNode = document.querySelector('.slide-menu-items');
+						menuNode.innerHTML = menuData.join('');
+						//console.log(menuData.join(''));
+					}
+				};
+				getFileIndex.send();
+			});
+
+		</script>
+	</body>
+</html>
+<!-- .element: class="fragment"-->
