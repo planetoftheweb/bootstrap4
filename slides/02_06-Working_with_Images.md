@@ -28,7 +28,7 @@ Bootstrap has some really useful classes that help you deal with images, so let'
 
 ## <i class="fa fa-square"></i> Rounded
 
-- <p contenteditable>`ROUNDED(-SID)(-SHA)(-SIZ)`</p>
+- <p contenteditable>`ROUNDED(-SID) (-SHA) (-SIZ)`</p>
 <div class="sample">
 	<b>SID:</b>
 	<code class="btn bg-primary text-white">top</code>

@@ -26,7 +26,6 @@ Bootstrap has a number of colors that you can access through contextual color na
 	<code class="btn text-body">body</code>
 	<code class="btn text-black-50">black-50</code>
 	<code class="btn text-white-50 bg-secondary">white-50</code>
-	<code class="btn text-body">body</code>
 	<code class="btn text-muted">muted</code>
 	<code class="btn text-white bg-secondary">white</code>
 </div>
@@ -37,7 +36,7 @@ Bootstrap has a number of colors that you can access through contextual color na
 
 ## <i class="fa fa-square-o"></i> Background Colors
 
-- <p contenteditable>`text-COLOR` for text</p>
+- <p contenteditable>`bg-COLOR` for text</p>
 <div class="sample">
 	<b>COLOR:</b><br>
 	<code class="btn bg-primary text-light">primary</code>
