@@ -11,40 +11,38 @@ One of the riches group of classes in Bootstrap are the spacing classes. This mi
 
 ## <i class="fa fa-th"></i> Margin/Padding
 
-<ul>
-	<li class="fragment"><p contenteditable>`PRO(SID)(-BP)-SIZ`</p>
-		<small style="line-height: 120%; vertical-align: text-bottom;">
-			<b>PRO:</b>
-			<code style="background:#0275D8; color:white;">m</code> margin
-			<code style="background:#0275D8; color:white;">p</code> padding
-		</small><br>
-		<small style="line-height: 120%; vertical-align: text-bottom;">
-			<b>SID:</b>
-			<code style="background:#F0AD4E; color:white;">t</code>
-			<code style="background:#F0AD4E; color:white;">r</code>
-			<code style="background:#F0AD4E; color:white;">b</code>
-			<code style="background:#F0AD4E; color:white;">l</code>
-			<code style="background:#F0AD4E; color:white;">x</code>
-			<code style="background:#F0AD4E; color:white;">y</code>
-		</small><br>
-		<small style="line-height: 120%; vertical-align: text-bottom;">
-			<b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px
-			<code style="background:#5cb85c; color:white;">md</code> >768px
-			<code style="background:#5cb85c; color:white;">lg</code> >992px
-			<code style="background:#5cb85c; color:white;">xl</code> >1200px
-		</small><br>
-		<small style="line-height: 120%; vertical-align: text-bottom;">
-			<b>SIZ:</b>
-			<code style="background:#D95357; color:white;">0</code>
-			<code style="background:#D95357; color:white;">1</code>
-			<code style="background:#D95357; color:white;">2</code>
-			<code style="background:#D95357; color:white;">3</code>
-			<code style="background:#D95357; color:white;">4</code>
-			<code style="background:#D95357; color:white;">5</code>
-			<code style="background:#D95357; color:white;">auto</code>
-		</small>
-	</li>
-</ul>
+- <p contenteditable>`PRO(SID)(-BP)-(N)SIZ`</p>
+<div class="sample">
+	<b>PRO:</b>
+	<code class="btn bg-primary text-white">m</code> margin
+	<code class="btn bg-primary text-white">p</code> padding
+</div>
+<div class="sample">
+	<b>SID:</b>
+	<code class="btn bg-warning text-white">t</code>
+	<code class="btn bg-warning text-white">r</code>
+	<code class="btn bg-warning text-white">b</code>
+	<code class="btn bg-warning text-white">l</code>
+	<code class="btn bg-warning text-white">x</code>
+	<code class="btn bg-warning text-white">y</code>
+</div>
+<div class="sample">
+	<b>BP:</b>
+	<code class="btn bg-success text-white">sm</code> >576px
+	<code class="btn bg-success text-white">md</code> >768px
+	<code class="btn bg-success text-white">lg</code> >992px
+	<code class="btn bg-success text-white">xl</code> >1200px
+</div>
+<div class="sample">
+	<b>SIZ:</b>
+	<code class="btn bg-danger text-white">0</code>
+	<code class="btn bg-danger text-white">1</code>
+	<code class="btn bg-danger text-white">2</code>
+	<code class="btn bg-danger text-white">3</code>
+	<code class="btn bg-danger text-white">4</code>
+	<code class="btn bg-danger text-white">5</code>
+	<code class="btn bg-danger text-white">auto</code>
+</div>
 
 
 > > Note:

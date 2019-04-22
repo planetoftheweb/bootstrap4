@@ -659,3 +659,9 @@ footer.fadeout {
 .reveal a code {
   cursor: pointer !important;
 }
+
+.reveal .sample {
+  font-size: .6em;
+  margin: 10px 0;
+  vertical-align: text-bottom;
+}

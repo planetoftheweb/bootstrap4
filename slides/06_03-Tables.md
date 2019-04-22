@@ -28,7 +28,8 @@ One of the best features in Bootstrap is the addition of tables.
 ## <i class="fa fa-table"></i> Style Classes
 <ul>
   <li class="fragment">`table-striped`</li>
-  <li class="fragment">`table-bordered`</li>
+	<li class="fragment">`table-bordered`</li>
+	<li class="fragment">`table-borderless`</li>
   <li class="fragment">`table-hover`</li>
 </ul>
 

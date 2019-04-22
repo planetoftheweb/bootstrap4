@@ -12,26 +12,24 @@ Bootstrap has a number of colors that you can access through contextual color na
 
 ## <i class="fa fa-square-o"></i> Text Colors
 
-<ul>
-	<li class="fragment"><p contenteditable>`text-COLOR` for text</p>
-		<small style="line-height: 120%; vertical-align: text-bottom;">
-    <code style="color:#007bff">primary</code>
-    <code style="color:#868e96">secondary</code>
-    <code style="color:#28a745">success</code>
-    <code style="color:#dc3545">danger</code><br>
-    <code style="color:#ffc107">warning</code>
-    <code style="color:#17a2b8">info</code>
-    <code style="color:#f8f9fa; background-color:gray;">light</code>
-    <code style="color:#343a40">dark</code>
-    </small>
-	</li>
-	<li class="fragment"><p>Use for links</p></li>
-</ul>
-
-> > Speaker Notes:
-1. You use the word text, and then one of the color keywords like: primary, success, info, warning, danger, white or muted and that will turn the text that color.
-
-1.You can use the same class names for links.
+- <p contenteditable>`text-COLOR` for text</p>
+<div class="sample">
+	<b>COLOR:</b><br>
+	<code class="btn text-primary">primary</code>
+	<code class="btn text-secondary">secondary</code>
+	<code class="btn text-success">success</code>
+	<code class="btn text-danger">danger</code>
+	<code class="btn text-warning">warning</code>
+	<code class="btn text-info">info</code><br>
+	<code class="btn text-light bg-secondary ">light</code>
+	<code class="btn text-dark">dark</code>
+	<code class="btn text-body">body</code>
+	<code class="btn text-black-50">50% black</code>
+	<code class="btn text-white-50 bg-secondary">50% white</code>
+	<code class="btn text-body">body</code>
+	<code class="btn text-muted">muted</code>
+	<code class="btn text-white bg-secondary">white</code>
+</div>
 
 ---
 
@@ -39,23 +37,20 @@ Bootstrap has a number of colors that you can access through contextual color na
 
 ## <i class="fa fa-square-o"></i> Background Colors
 
-<ul>
-	<li class="fragment"><p contenteditable>`bg-COLOR` for backgrounds</p>
-		<small style="line-height: 120%; vertical-align: text-bottom;">
-    <code style="background-color:#007bff; color: white;">primary</code>
-    <code style="background-color:#868e96; color: white;">secondary</code>
-    <code style="background-color:#28a745; color: white;">success</code>
-    <code style="background-color:#dc3545; color: white;">danger</code><br>
-    <code style="background-color:#ffc107; color: white;">warning</code>
-    <code style="background-color:#17a2b8; color: white;">info</code>
-    <code style="background-color:#f8f9fa; color: white; background-color:gray;">light</code>
-    <code style="background-color:#343a40; color: white;">dark</code>
-    <code style="background-color:#fff; border: 1px solid black; color: black;">white</code>
-    </small>
-	</li>
-
-</ul>
-
+- <p contenteditable>`text-COLOR` for text</p>
+<div class="sample">
+	<b>COLOR:</b><br>
+	<code class="btn bg-primary text-light">primary</code>
+	<code class="btn bg-secondary text-light">secondary</code>
+	<code class="btn bg-success text-light">success</code>
+	<code class="btn bg-danger text-light">danger</code>
+	<code class="btn bg-warning text-light">warning</code>
+	<code class="btn bg-info text-light">info</code><br>
+	<code class="btn bg-light text-secondary ">light</code>
+	<code class="btn bg-dark text-light">dark</code>
+	<code class="btn btn-outline-dark text-secondary" style=" border: 1px solid gray; background: transparent">white</code>
+	<code class="btn btn-outline-dark text-secondary" style=" border: 1px solid gray; background: transparent">transparent</code>
+</div>
 
 > > Speaker Notes:
 1. Another way you can use them is to color the background of elements, there are a couple of extra colors here called inverse for a reversed look as well as faded for a light gray background.

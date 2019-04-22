@@ -11,19 +11,43 @@ Bootstrap has some really useful classes that help you deal with images, so let'
 
 ## <i class="fa fa-picture-o"></i> Basic Images
 
-<ul>
-	<li class="fragment">`img-fluid` responsive images</li>
-	<li class="fragment"><p>`rounded`, `rounded-DIR` round edges</p>
-		<small style="line-height: 220%; vertical-align: text-bottom;"><code>top</code> <code>right</code> <code>bottom</code> <code>left</code><br> <code>circle</code> <code>rounded-0</code></small>
-	</li>
-	<li class="fragment">`img-thumbnail` rounded 1px border</li>
-</ul>
+- `img-fluid` responsive images
+- `img-thumbnail` rounded 1px border
 
 > > Speaker Notes:
 
 1. One of the most useful image classes is the img-fluid class. If you add that to an image, the image becomes responsive, which means a max-width attribute of 100% and a height of auto.
-1. If you want rounded edges, you can use the word rounded or add a direction to the word, top, right, bottom, left, which should be self explanatory or circle, which makes the image look like a circle and rounded-0, which gets rid of any roundness the picture currently had.
 1. There is an additional style that adds a 1 px rounded edge around the image called img-thumbnail.
+---
+
+
+
+---
+
+<!-- .slide: data-state="hasicon" -->
+
+## <i class="fa fa-square"></i> Rounded
+
+- <p contenteditable>`ROUNDED(-SID)(-SHA)(-SIZ)`</p>
+<div class="sample">
+	<b>SID:</b>
+	<code class="btn bg-primary text-white">top</code>
+	<code class="btn bg-primary text-white">right</code>
+	<code class="btn bg-primary text-white">bottom</code>
+	<code class="btn bg-primary text-white">left</code>
+</div>
+<div class="sample">
+	<b>SHA:</b>
+	<code class="btn bg-danger text-white">circle</code>
+	<code class="btn bg-danger text-white">pill</code>
+</div>
+<div class="sample">
+	<b>SIZ:</b>
+	<code class="btn bg-success text-white">0</code>
+	<code class="btn bg-success text-white">sm</code>
+	<code class="btn bg-success text-white">lg</code>
+</div>
+
 
 ---
 

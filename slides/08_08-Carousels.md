@@ -9,12 +9,10 @@ The carousel is the most popular bootstrap component. There's really not much to
 
 ## Setup
 
-<ul>
-	<li class="fragment">`carousel`</li>
-	<li class="fragment">`data-ride="carousel"`</li>
-	<li class="fragment">`carousel-inner`</li>
-	<li class="fragment">`carousel-item`</li>
-</ul>
+- `carousel`
+- `data-ride="carousel"`
+- `carousel-inner`
+- `carousel-item`
 
 > > Speaker Notes:
 1. The main container to use is of course carousel
@@ -25,11 +23,9 @@ The carousel is the most popular bootstrap component. There's really not much to
 ---
 
 ## Options
-
-<ul>
-	<li class="fragment">one element `active`</li>
-	<li class="fragment">Crop and size photos</li>
-</ul>
+- `carousel-fade`
+- one element `active`
+- `d-block` &amp; `w-100`
 
 > > Speaker Notes:
 1. At least one of the carousel image containers should have a class of active.
@@ -37,9 +33,7 @@ The carousel is the most popular bootstrap component. There's really not much to
 
 ---
 ## Captions
-<ul>
-	<li class="fragment">`carousel-caption`</li>
-</ul>
+- `carousel-caption`
 
 ```
 <div class="carousel-caption d-none d-md-block">
@@ -56,13 +50,11 @@ The carousel is the most popular bootstrap component. There's really not much to
 
 ## Navigation
 
-<ul>
-	<li class="fragment">`data-target`</li>
-	<li class="fragment">`carousel-control-prev`</li>
-	<li class="fragment">`carousel-control-prev-icon`</li>
-	<li class="fragment">`carousel-control-next`</li>
-	<li class="fragment">`carousel-control-next-icon`</li>
-</ul>
+- `data-target`
+- `carousel-control-prev`
+- `carousel-control-prev-icon`
+- `carousel-control-next`
+- `carousel-control-next-icon`
 
 > > Speaker Notes:
 1. You can add previous and next icons on the images using classes.
@@ -71,11 +63,9 @@ The carousel is the most popular bootstrap component. There's really not much to
 
 ## Indicators
 
-<ul>
-	<li class="fragment">`carousel-indicators`</li>
-	<li class="fragment">`data-target`</li>
-	<li class="fragment">`data-slide-to`</li>
-</ul>
+- `carousel-indicators`
+- `data-target`
+- `data-slide-to`
 
 > > Speaker Notes:
 1. You can also add indicators.
@@ -84,36 +74,15 @@ The carousel is the most popular bootstrap component. There's really not much to
 
 ---
 
-## Setup
-
-<ul>
-	<li class="fragment">JavaScript or `data-`</li>
-</ul>
-
-```javascript
-$(function () {
-	$('.carousel').carousel(OPTIONS)
-})
-```
-<!-- .element: data-trim="true" contenteditable="true" class="fragment" -->
-
-
-> > Speaker Notes:
-1. As I mentioned, you can control your carousels in one of two ways, using Javascript or through data attributes
-
----
-
 ## Data Attributes
 
-<ul>
-	<li class="fragment">`interval` : 5000</li>
-	<li class="fragment">`pause` : hover | null</li>
-	<li class="fragment">`ride` : false</li>
-	<li class="fragment">`wrap` : true</li>
-</ul>
+- `interval` : 5000 / item
+- `pause` : hover | null
+- `ride` : false
+- `touch`, `keyboard`, `wrap` : true
 
 > > Speaker Notes:
-1. Interval is the amount of milliseconds between auto-advances.
+1. Interval is the amount of milliseconds between auto-advances. Interestingly enough, you can include data-interval inside each carousel-item, so that some items can take longer to display.
 2. Pause will pause the slideshow if you move your mouse over the images. It's  on by deafult, so set it to null if you don't want it to do this.
 3. Ride controls how the photos rotate. If this is set to true, then the photos will rotate after you click on the controls. If you set it to the word carousel, it will automatically play the slide when the page loads. false prevents it from rotating.
 4. wrap controls what happens when the slideshow reaches the last slide. The default is true, which means the slide advances to the first photo after the last. False turns that off.
