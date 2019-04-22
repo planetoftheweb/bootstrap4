@@ -14,15 +14,15 @@ Text Utilities
 
 - `text-justify`
 - `text-wrap`/`text-nowrap`
-<p contenteditable>`text(-XX)-POS`</p>
+- <span contenteditable>`text(-XX)-POS`</span>
 <div class="sample">
-	<b>XX:</b> <code class="btn bg-success text-white">sm</code> >576px
-		<code class="btn bg-success text-white">md</code> >768px
-		<code class="btn bg-success text-white">lg</code> >992px
-		<code class="btn bg-success text-white">xl</code> >1200px
-	<b>POS:</b> <code class="btn bg-danger text-white">left</code> &nbsp;
-	<code class="btn bg-danger text-white">center</code> &nbsp;
-	<code class="btn bg-danger text-white">right</code>
+<b>XX:</b> <code class="btn bg-success text-white">sm</code> >576px
+<code class="btn bg-success text-white">md</code> >768px
+<code class="btn bg-success text-white">lg</code> >992px
+<code class="btn bg-success text-white">xl</code> >1200px<br>
+<b>POS:</b> <code class="btn bg-danger text-white">left</code> &nbsp;
+<code class="btn bg-danger text-white">center</code> &nbsp;
+<code class="btn bg-danger text-white">right</code>
 </div>
 
 > > Speaker Notes:
@@ -52,6 +52,8 @@ Text Utilities
 
 1. text-capitalize capitalizes the first letter of each word, but leaves the case of other letters alone.
 
+1. text-monospace changes the font to a typewriter style like courier that has equal spacing between characters. This is often used with code.
+
 ---
 
 <!-- .slide: data-state="hasicon" -->
@@ -65,9 +67,11 @@ Text Utilities
 
 > > Speaker Notes:
 
-1. There's a few classes that change the weight or style of the text. font-weight-bold of course makes the text bold.
+1. There's a few classes that change the weight or style of the text. You can use lighter, which would be the lightest, or font-weight light.
 
-1. font-weight-normal will change the font to a normal weight.
+1. There' also font-weight-bold and font-weight-bolder to create increased weights.
+
+1. font-weight-normal will change the font to a normal weight and it's the default, so you don't need it most of the time unless you're trying to reset a weight programmatically.
 
 1. and of course font-italic will change the style of text to italic.
 
@@ -100,13 +104,13 @@ Text Utilities
 
 > > Speaker Notes:
 
-1. There's a few classes that change the weight or style of the text. font-weight-bold of course makes the text bold.
+1. To control flow, we have a number of classes like text-wrap, which changes the way content will wrap inside an element.
 
-1. font-weight-normal will change the font to a normal weight.
+1. Text-nowrap forces the content from wrapping inside an element.
 
-1. and of course font-italic will change the style of text to italic.
+1. There's also a text-break class, which prevents long strings of text from breaking your layouts.
 
-1. This will give you three dots called ellipsis on certain elements with a class or block or inline-block.
+1. Finally text-truncate chops off extra text and replaces it with three dots...also called an ellipsis.
 
 ## Conclusion
 
