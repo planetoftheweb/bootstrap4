@@ -13,7 +13,6 @@ Text Utilities
 ## <i class="fa fa-font"></i> Alignment Utilities
 
 - `text-justify`
-- `text-wrap`/`text-nowrap`
 - <span contenteditable>`text(-XX)-POS`</span>
 <div class="sample">
 <b>XX:</b> <code class="btn bg-success text-white">sm</code> >576px

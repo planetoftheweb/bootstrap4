@@ -24,8 +24,8 @@ Bootstrap has a number of colors that you can access through contextual color na
 	<code class="btn text-light bg-secondary ">light</code>
 	<code class="btn text-dark">dark</code>
 	<code class="btn text-body">body</code>
-	<code class="btn text-black-50">50% black</code>
-	<code class="btn text-white-50 bg-secondary">50% white</code>
+	<code class="btn text-black-50">black-50</code>
+	<code class="btn text-white-50 bg-secondary">white-50</code>
 	<code class="btn text-body">body</code>
 	<code class="btn text-muted">muted</code>
 	<code class="btn text-white bg-secondary">white</code>
