@@ -46,4 +46,13 @@ One of the riches group of classes in Bootstrap are the spacing classes. This mi
 
 
 > > Note:
-1. First is margin and padding. Bootstrap provides a few classes that will let you add margin and padding to different elements. They work just like their CSS counterparts, so this should easily make sense. To activate it, you use a property, then optionally a side. Notice that there is no hyphen between the property and the side like in the other classes. The sides are just like in HTML top, right, bottom, left. The x option is for right and left and the y option is for top and bottom. You can optionally add a breakpoint like with other spacing parameters and then a size. The sides are in numbers from 1-5. The base size for each of these is based on a variable that is preset at 1 rem so these are mutiples of that. Using the number 1 means a space of .25rem, two is .5rem, three is 1rem, 4 is 1.5rem and 5 is 3 rem.
+1. First is margin and padding. Bootstrap provides a few classes that will let you add margin and padding to different elements.
+
+They work just like their CSS counterparts, so this should easily make sense. To activate it, you use a property, then optionally a side. Notice that there is no hyphen between the property and the side like in the other classes.
+
+ The sides are just like in HTML top, right, bottom, left. The x option is for right and left and the y option is for top and bottom. You can optionally add a breakpoint like with other spacing parameters and then a size. The sides are in numbers from 1-5.
+
+ The base size for each of these is based on a variable that is preset at 1 rem so these are mutiples of that. Using the number 1 means a space of .25rem, two is .5rem, three is 1rem, 4 is 1.5rem and 5 is 3 rem.
+
+
+Notice that you can also include an N which stands for negative, but that only works for margins and not padding.
