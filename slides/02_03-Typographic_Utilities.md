@@ -36,7 +36,7 @@ Text Utilities
 
 <!-- .slide: data-state="hasicon" -->
 
-## <i class="fa fa-font"></i> Vertical Alignment
+## <i class="fa fa-font"></i> Line Height Alignment
 
 - <span contenteditable>`align-SID`</span>
 <div class="sample">
@@ -52,7 +52,8 @@ Text Utilities
 
 > > Speaker Notes:
 
-1. There's a few classes that change the weight or style of the text. You can use lighter, which would be the lightest, or font-weight light.
+1. vertical-align only affects inline, inline-block, inline-table, and table cell elements.
+
 
 
 
@@ -62,10 +63,15 @@ Text Utilities
 
 ## <i class="fa fa-font"></i> Capitalization
 
-- `text-lowercase`
-- `text-uppercase`
-- `text-capitalize`
-- `text-monospace`
+
+- <span contenteditable>`text-TYP`</span>
+<div class="sample">
+<b>TYP:</b><br>
+<code class="btn bg-success text-white">lowercase</code>
+<code class="btn bg-success text-white">uppercase</code><br>
+<code class="btn bg-success text-white">capitalize</code>
+<code class="btn bg-success text-white">monospace</code>
+</div>
 
 > > Speaker Notes:
 
@@ -83,10 +89,17 @@ Text Utilities
 
 ## <i class="fa fa-font"></i> Text Styles
 
-- `font-weight-light(er)`
-- `font-weight-bold(er)`
-- `font-weight-normal`
-- `font-italic`
+- <span contenteditable>`font-STYL`</span>
+<div class="sample">
+<b>STYL:</b><br>
+<code class="btn bg-success text-white">italic</code>
+<code class="btn bg-success text-white">weight-normal</code><br>
+<code class="btn bg-success text-white">weight-light</code>
+<code class="btn bg-success text-white">weight-lighter</code><br>
+<code class="btn bg-success text-white">weight-bold</code>
+<code class="btn bg-success text-white">weight-bolder</code>
+
+</div>
 
 > > Speaker Notes:
 
@@ -113,17 +126,20 @@ Text Utilities
 
 1. This class will remove some text or link's color, so that it is the same color as the parent, so it will ignore any colors specified here.
 
-
 ---
 
 <!-- .slide: data-state="hasicon" -->
 
 ## <i class="fa fa-font"></i> Flow
 
-- `text-wrap`
-- `text-nowrap`
-- `text-break`
-- `text-truncate`
+- <span contenteditable>`text-FLOW`</span>
+<div class="sample">
+<b>FLOW:</b><br>
+<code class="btn bg-success text-white">wrap</code>
+<code class="btn bg-success text-white">nowrap</code>
+<code class="btn bg-success text-white">break</code>
+<code class="btn bg-success text-white">truncate</code>
+</div>
 
 > > Speaker Notes:
 
