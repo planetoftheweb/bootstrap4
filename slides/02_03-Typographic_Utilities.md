@@ -38,21 +38,23 @@ Text Utilities
 
 ## <i class="fa fa-font"></i> Vertical Alignment
 
-- `font-weight-light(er)`
-- `font-weight-bold(er)`
-- `font-weight-normal`
-- `font-italic`
+- <span contenteditable>`align-SID`</span>
+<div class="sample">
+<b>SID:</b><br>
+<code class="btn bg-success text-white">baseline</code>
+<code class="btn bg-success text-white">top</code>
+<code class="btn bg-success text-white">middle</code>
+<code class="btn bg-success text-white">bottom</code><br>
+<code class="btn bg-success text-white">text-bottom</code>
+<code class="btn bg-success text-white">text-top</code>
+<code class="btn bg-success text-white">right</code>
+</div>
 
 > > Speaker Notes:
 
 1. There's a few classes that change the weight or style of the text. You can use lighter, which would be the lightest, or font-weight light.
 
-`.align-baseline`
-`.align-top`
-`.align-middle`
-`.align-bottom`
-`.align-text-bottom`
-`.align-text-top`
+
 
 ---
 
