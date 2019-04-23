@@ -46,12 +46,15 @@ Modals
 
 - `modal-title`
 - `modal-dialog-centered`
+- `modal-dialog-scrollable`
 - `data-dismiss="modal"`
 
 > > Speaker Notes:
 
 1. If you are using a title you can use modal-title to identify the title.
-2. the data-dismiss modal allows you to have an element that closes the modal.
+1. Modals are horizontally centered, but if you want them to be vertically centered as well, just add a modal-dialog-centered class.
+1. If you have a lot of content you can even add a `modal-dialog-scrollable` class to allow for content to scroll.
+1. the data-dismiss modal allows you to have an element that closes the modal.
 
 ---
 
@@ -66,8 +69,7 @@ Modals
 
 > > Speaker Notes:
 
-1. If you are using a title you can use modal-title to identify the title.
-2. the data-dismiss modal allows you to have an element that closes the modal.
+1. There are some optional sizes you can use for the modals as you can see on this table.
 
 ---
 
