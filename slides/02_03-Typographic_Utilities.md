@@ -10,7 +10,7 @@ Text Utilities
 
 <!-- .slide: data-state="hasicon" -->
 
-## <i class="fa fa-font"></i> Alignment Utilities
+## <i class="fa fa-font"></i> Horizontal Alignment
 
 - `text-justify`
 - <span contenteditable>`text(-XX)-POS`</span>
@@ -31,6 +31,28 @@ Text Utilities
 1. If you need to turn off wrapping for some content, you can use text-nowrap. That can be useful if you have a long line of text that's just going to be copied, but you don't need to display the whole thing.
 
 1. One of textual utility classes lets you control the alignment of your content. What's really cool is that the alignment can change based on the width of the browser or viewport. The formula looks like this.
+
+---
+
+<!-- .slide: data-state="hasicon" -->
+
+## <i class="fa fa-font"></i> Vertical Alignment
+
+- `font-weight-light(er)`
+- `font-weight-bold(er)`
+- `font-weight-normal`
+- `font-italic`
+
+> > Speaker Notes:
+
+1. There's a few classes that change the weight or style of the text. You can use lighter, which would be the lightest, or font-weight light.
+
+`.align-baseline`
+`.align-top`
+`.align-middle`
+`.align-bottom`
+`.align-text-bottom`
+`.align-text-top`
 
 ---
 
