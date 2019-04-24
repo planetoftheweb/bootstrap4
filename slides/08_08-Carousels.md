@@ -9,10 +9,12 @@ The carousel is the most popular bootstrap component. There's really not much to
 
 ## Setup
 
-- `carousel`
-- `data-ride="carousel"`
+- `carousel`, `slide`, `carousel-fade`, target
 - `carousel-inner`
-- `carousel-item`
+  - `carousel-item`, `active`
+    - img `d-block` &amp; `w-100`
+    - `carousel-caption`
+- Controls &amp; Indicators
 
 > > Speaker Notes:
 1. The main container to use is of course carousel
@@ -22,39 +24,27 @@ The carousel is the most popular bootstrap component. There's really not much to
 
 ---
 
-## Options
-- `carousel-fade`
-- one element `active`
-- `d-block` &amp; `w-100`
+## Data Attributes
+
+- `ride` : carousel | false
+- `interval` : 5000 / item
+- `pause` : hover | null
+- `touch`, `keyboard`, `wrap` : true
 
 > > Speaker Notes:
-1. At least one of the carousel image containers should have a class of active.
-1. Also, bootstrap is not going to perform any sizing on your images, so make sure you crop and resize your images. You may also need to size your images using css.
+1. Interval is the amount of milliseconds between auto-advances. Interestingly enough, you can include data-interval inside each carousel-item, so that some items can take longer to display.
+2. Pause will pause the slideshow if you move your mouse over the images. It's  on by deafult, so set it to null if you don't want it to do this.
+3. Ride controls how the photos rotate. If this is set to true, then the photos will rotate after you click on the controls. If you set it to the word carousel, it will automatically play the slide when the page loads. false prevents it from rotating.
+4. wrap controls what happens when the slideshow reaches the last slide. The default is true, which means the slide advances to the first photo after the last. False turns that off.
 
----
-## Captions
-- `carousel-caption`
-
-```
-<div class="carousel-caption d-none d-md-block">
-  <h3>...</h3>
-  <p>...</p>
-</div>
-```
-<!-- .element: data-trim="true" contenteditable="true" class="fragment" -->
-
-> > Speaker Notes:
-1. There is a special class for captions called carousel-caption.
 
 ---
 
-## Navigation
+## Controls
 
-- `data-target`
-- `carousel-control-prev`
-- `carousel-control-prev-icon`
-- `carousel-control-next`
-- `carousel-control-next-icon`
+- `carousel-control-(prev)(next)`
+  - `carousel-control-(prev)(next)-icon`
+  - href="target"
 
 > > Speaker Notes:
 1. You can add previous and next icons on the images using classes.
@@ -64,28 +54,14 @@ The carousel is the most popular bootstrap component. There's really not much to
 ## Indicators
 
 - `carousel-indicators`
-- `data-target`
-- `data-slide-to`
+  - `data-target="target"`
+  - `data-slide-to="#"`
 
 > > Speaker Notes:
 1. You can also add indicators.
 1. The data-target attribute is essential since it indicates what carousel the indicators control
 1. data-slide-to indicates which image the current indicator will show.
 
----
-
-## Data Attributes
-
-- `interval` : 5000 / item
-- `pause` : hover | null
-- `ride` : false
-- `touch`, `keyboard`, `wrap` : true
-
-> > Speaker Notes:
-1. Interval is the amount of milliseconds between auto-advances. Interestingly enough, you can include data-interval inside each carousel-item, so that some items can take longer to display.
-2. Pause will pause the slideshow if you move your mouse over the images. It's  on by deafult, so set it to null if you don't want it to do this.
-3. Ride controls how the photos rotate. If this is set to true, then the photos will rotate after you click on the controls. If you set it to the word carousel, it will automatically play the slide when the page loads. false prevents it from rotating.
-4. wrap controls what happens when the slideshow reaches the last slide. The default is true, which means the slide advances to the first photo after the last. False turns that off.
 
 ## Conclusion
 Carousels are very popular in Bootstrap because they give you a way to show different content within a concise space.
