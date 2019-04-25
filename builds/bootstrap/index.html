@@ -11,7 +11,7 @@
 
 <body>
 
-<div class="toast" role="alert" aria-live="assertive" aria-atomic="true"
+<div id="myToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"
   data-delay="5000" style="position: absolute; top: 1rem; right: 1rem;">
   <div class="toast-header">
     <strong class="mr-auto">About Wisdom Pet Medicine</strong>
@@ -30,7 +30,14 @@
     <h2>Our Mission</h2>
 
     <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish. We apply the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest treatments and&nbsp;cures.</p>
-    <button id="showToast" class="btn btn-primary mx-auto">About</button>
+    <button id="showToast" class="btn btn-primary mx-auto">
+    <span id="mySpinner" class="d-none">
+      <span class="spinner-border spinner-grow-sm text-light"
+        role="status" aria-hidden="true"></span>
+      <span class="sr-only">Loading...</span>
+    </span>
+    
+    About</button>
 
   </div>
 
@@ -44,6 +51,15 @@
 $(document).ready(function() {
   $("#showToast").click(function() {
     $('.toast').toast('show');
+
+    $('#myToast').on('shown.bs.toast', function() {
+      $('#mySpinner').removeClass('d-none');
+    });
+
+    $('#myToast').on('hidden.bs.toast', function() {
+      $('#mySpinner').addClass('d-none');
+    });
+
   })
 });
 </script>
