@@ -1,6 +1,6 @@
 <!-- .slide: data-state="title" -->
 # Bootstrap 4
-Scrollspy
+Toasts
 
 > > Speaker Notes:
 Toasts are little notification style boxes you usually see in desktop and mobile operating systems.
@@ -9,7 +9,7 @@ Toasts are little notification style boxes you usually see in desktop and mobile
 
 ## Using Toasts
 
-- `toast`, data-delay,
+- `toast`, data-delay
 - `toast-header`
 - `toast-body`
 
