@@ -39,6 +39,7 @@ function watch() {
 
 function server() {
   browserSync.init({
+    notify: false,
     server: {
       baseDir: "./"
     }
