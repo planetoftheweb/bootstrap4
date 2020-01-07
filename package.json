@@ -3,10 +3,10 @@
   "version": "0.0.2",
   "description": "Assets for my Bootstrap 4: Essential Training Course",
   "scripts": {
-    "start": "browser-sync start --server 'builds/bootstrap' --files ./builds/bootstrap"
+    "start": "browser-sync start --server 'builds/bootstrap' --files ./builds/bootstrap --no-notify"
   },
   "author": "Ray Villalobos",
   "devDependencies": {
-    "browser-sync": "^2.26.3"
+    "browser-sync": "^2.26.7"
   }
 }
