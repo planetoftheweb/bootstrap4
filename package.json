@@ -1,12 +1,21 @@
 {
-  "name": "negotiatingsalary",
-  "version": "1.0.1",
-  "description": "These are the slides for my presentation for negotiating your salary.",
-  "main": "gulpfile.js",
-  "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
-    "gulp-folder-index": "0.0.3"
+  "name": "rayveal",
+  "version": "2.0.5",
+  "description": "RayVeal.js is an opinionated install of the awesome reveal.js with a mardown focused workflow.",
+  "scripts": {
+    "start": "gulp",
+    "bootstrap-light": "node-sass ./src/bootstrap-light/scss/bootstrap.scss ./docs/css/bootstrap-light.css"
   },
-  "author": "Ray Villalobos"
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-folder-index": "0.0.3",
+    "node-sass": "^4.12.0"
+  },
+  "author": "Ray Villalobos",
+  "dependencies": {
+    "gulp-cli": "^2.2.0"
+  }
 }
