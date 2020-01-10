@@ -23,7 +23,7 @@ As you work with more complex layouts you may want to modify the grid depending 
   <code style="background:#5cb85c; color:white;">fluid</code>
   </small><br>
 
-- <p contenteditable>`row(-cols(-BP)(-COL))`</p>
+- <p contenteditable>`row-cols(-BP)(-COL)`</p>
   <small style="line-height: 120%; vertical-align: text-bottom;">
   <b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px
   <code style="background:#5cb85c; color:white;">md</code> >768px

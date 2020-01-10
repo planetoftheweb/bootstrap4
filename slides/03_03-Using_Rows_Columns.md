@@ -15,7 +15,7 @@ In conjuction with containers, rows prepare the content for a layout, and column
 ## <i class="fa fa-th"></i> Rows
 
 - `row`
-- <p contenteditable>`row-cols(-BP)(-COL))`</p>
+- <p contenteditable>`row-cols(-BP)(-COL)`</p>
   <small style="line-height: 120%; vertical-align: text-bottom;">
   <b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px
   <code style="background:#5cb85c; color:white;">md</code> >768px
