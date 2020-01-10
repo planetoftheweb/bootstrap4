@@ -5,7 +5,8 @@
 Card Layout
 
 > > Speaker Notes:
-> > There is a number of ways to control the layout of your cards. Some are simpler than others and what's different is how the elements align.
+
+There is a number of ways to control the layout of your cards. Some are simpler than others and what's different is how the elements align.
 
 ---
 
@@ -23,7 +24,7 @@ Card Layout
 
 ## <i class="fa fa-list-alt"></i> Using the Grid
 
-- <p contenteditable>`row(-cols(-BP)(-COL))`</p>
+- <p contenteditable>`row row(-cols(-BP)(-COL))`</p>
   <small style="line-height: 120%; vertical-align: text-bottom;">
   <b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px
   <code style="background:#5cb85c; color:white;">md</code> >768px
@@ -34,12 +35,13 @@ Card Layout
   <b>COL:</b> <code style="background:#D95357; color:white;">1-6</code></small>
 
 > > Speaker Notes:
-> > Bootstrap has three different classes to make it simpler to create columns.
+
+Bootstrap has three different classes to make it simpler to create columns.
 
 1. The first is card-group. It creates a group that's similar to a button group. The cards come together with a shared border.
-2. There's a second class called card-deck. If you want spacing between the columns, this is the easiest way to set things up.
-3. There's also card-columns. This makes a really interesting layout where the cards align similarly to what you would see in pinterest.
-4. You can also, of course use the grid and the addition of the new rows-cols classes is really helpful.
+1. There's a second class called card-deck. If you want spacing between the columns, this is the easiest way to set things up.
+1. There's also card-columns. This makes a really interesting layout where the cards align similarly to what you would see in pinterest.
+1. You can also, of course use the grid and the addition of the new rows-cols classes is really helpful.
 
 ## Demo
 
