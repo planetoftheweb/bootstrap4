@@ -64,4 +64,5 @@ One of the main reasons people use bootstrap is to be able to easily layout cont
 | .container&#8209;fluid |              **100%**              |           **100%**            |           **100%**           |          **100%**           |              **100%**              |
 
 > > Speaker Notes:
-> > Here's more of a detailed look on how the containers work. You can see that the container and the container-sm class are identical and that the container-fluid is always responsive to the width. The other classes will essentially let you make the width responsive UNTIL a certain breakpoint and then start adhearing to the grid.
+
+Here's more of a detailed look on how the containers work. You can see that the container and the container-sm class are identical and that the container-fluid is always responsive to the width. The other classes will essentially let you make the width responsive UNTIL a certain breakpoint and then start adhearing to the grid.
