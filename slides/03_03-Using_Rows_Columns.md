@@ -14,7 +14,8 @@ In conjuction with containers, rows prepare the content for a layout, and column
 
 ## <i class="fa fa-th"></i> Rows
 
-- <p contenteditable>`row(-cols(-BP)(-COL))`</p>
+- `row`
+- <p contenteditable>`row-cols(-BP)(-COL))`</p>
   <small style="line-height: 120%; vertical-align: text-bottom;">
   <b>BP:</b> <code style="background:#5cb85c; color:white;">sm</code> >576px
   <code style="background:#5cb85c; color:white;">md</code> >768px
@@ -24,7 +25,6 @@ In conjuction with containers, rows prepare the content for a layout, and column
   <small style="line-height: 120%; vertical-align: text-bottom;">
   <b>COL:</b> <code style="background:#D95357; color:white;">1-6</code></small>
 
-- Only columns in rows
 - `no-gutters` delete space between
 
 > > Speaker Notes:

@@ -56,7 +56,7 @@ One of the main reasons people use bootstrap is to be able to easily layout cont
 
 |                        | Extra small <small>< 576px</small> | Small <small> ≥ 576px</small> | Medium <small>≥768px</small> | Large <small>≥992px</small> | Extra large <small>≥1200px</small> |
 | ---------------------- | :--------------------------------: | :---------------------------: | :--------------------------: | :-------------------------: | :--------------------------------: |
-| .container             |              **100%**              |             540px             |             20px             |            960px            |               1140px               |
+| .container             |              **100%**              |             540px             |            720px             |            960px            |               1140px               |
 | .container&#8209;sm    |              **100%**              |             540px             |            720px             |            960px            |               1140px               |
 | .container&#8209;md    |              **100%**              |           **100%**            |            720px             |            960px            |               1140px               |
 | .container&#8209;lg    |              **100%**              |           **100%**            |           **100%**           |            960px            |               1140px               |
