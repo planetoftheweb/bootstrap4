@@ -7,6 +7,12 @@
   },
   "author": "Ray Villalobos",
   "devDependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^5.0.0",
+    "sass": "^1.29.0"
   }
 }
